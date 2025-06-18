@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs  
 
 website:
   title: "Luíza Helena Pereira Lúcio"
@@ -19,6 +20,4 @@ format:
     theme: quartz
     toc: true
     smooth-scroll: true
-
-output-dir: docs
 
