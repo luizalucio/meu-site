@@ -17,7 +17,7 @@ website:
 
 format:
   html:
-    theme: quartz
+    theme: sandstone
     toc: true
     smooth-scroll: true
 

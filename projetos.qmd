@@ -1,3 +1,9 @@
 ---
-title: "projetos.qmd"
+title: "Meus Projetos"
 ---
+
+## Projetos em Quarto
+- [Relatório de Queimadas](/relatorio_queimadas.html) 
+
+## Projetos Externos
+ 
