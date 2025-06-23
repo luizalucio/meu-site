@@ -8,16 +8,29 @@ website:
     left:
       - href: index.qmd
         text: Início
+      - href: sobre.qmd
+        text: Sobre
+      - href: historia.qmd
+        text: Minha história
       - href: projetos.qmd
         text: Projetos
       - href: curriculo.qmd
         text: Currículo
       - href: contato.qmd
         text: Contato
+        
+  page-footer:
+    center: |
+      This website is built with ❤️ using [RStudio](https://posit.co) and [Quarto](https://quarto.org).
 
 format:
   html:
-    theme: sandstone
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css   # ← aqui você conecta seu arquivo de estilo
     toc: true
     smooth-scroll: true
+
+
 

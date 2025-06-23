@@ -1,24 +1,45 @@
 [
   {
-    "objectID": "projetos.html",
-    "href": "projetos.html",
-    "title": "Meus Projetos",
+    "objectID": "projetos/relatorio-queimadas.html",
+    "href": "projetos/relatorio-queimadas.html",
+    "title": "Explorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados",
     "section": "",
-    "text": "Relatório de Queimadas"
+    "text": "Esta análise exploratória de dados tem como objetivo investigar os focos de queimadas e incêndios no Brasil durante o mês de maio de 2025. O trabalho foi desenvolvido como parte do meu processo de aprendizagem no curso de Estatística da Universidade Federal de Lavras, na disciplina de Organização e Apresentação de Dados (GES109).\n\n\n\n\nO público-alvo dessa análise é a sociedade em geral, com ênfase especial nos brasileiros, visto que o foco dos dados é o território nacional. A ideia é informar tanto o público leigo quanto profissionais e tomadores de decisão interessados em entender os padrões e riscos relacionados as queimadas no Brasil.\n\n\nAo explorar esse conjunto de dados, levantei diversos questionamentos sobre as relações entre variáveis, a existência de regiões com maior risco de incêndios e a relação com outros fatores. Ao longo deste relatório, apresentarei uma série de respostas para essas perguntas e outras, que serão discutidas com base na análise realizada.\n\n\n\n\n\nEste conjunto de dados é uma fonte primária, ou seja fornece informações originais, coletadas diretamente por quem realizou a medição. Nesse caso, os dados foram obtidos no portal de dados abertos do Programa Queimadas do Instituto Nacional de Pesquisas Espaciais (INPE). A coleta foi realizada no dia 26/05, a partir do conjunto nomeado Focos de Queimadas e Incêndios, no formato CSV e referente a base do mês de maio que contempla toda a América Latina.\n\n\n\n\n\nNesta base de dados, temos 131.180 observações e 16 variáveis de três tipos. As variáveis do tipo chr (character) correspondem a variáveis categóricas nominais, pois representam categorias sem uma ordem natural. As do tipo double (dbl) são variáveis quantitativas contínuas, utilizadas para representar números reais, podendo conter casas decimais, enquanto as do tipo integer (int), que também são quantitativas, mas discretas, assumem apenas valores inteiros. Há ainda uma variável do tipo date, que é temporal, utilizada para representar datas no formato ano-mês-dia, permitindo análises ao longo do tempo.\n\n\nA base original trata da América Latina e o foco dessa EDA é somente no Brasil, então afunilei seguindo essa linha de raciocínio e, no total, trabalhei com 930 observações e 5 variáveis: data, estado, dia sem chuva, risco fogo e bioma."
   },
   {
-    "objectID": "projetos.html#projetos-em-quarto",
-    "href": "projetos.html#projetos-em-quarto",
-    "title": "Meus Projetos",
+    "objectID": "projetos/relatorio-queimadas.html#introdução",
+    "href": "projetos/relatorio-queimadas.html#introdução",
+    "title": "Explorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados",
     "section": "",
-    "text": "Relatório de Queimadas"
+    "text": "Esta análise exploratória de dados tem como objetivo investigar os focos de queimadas e incêndios no Brasil durante o mês de maio de 2025. O trabalho foi desenvolvido como parte do meu processo de aprendizagem no curso de Estatística da Universidade Federal de Lavras, na disciplina de Organização e Apresentação de Dados (GES109).\n\n\n\n\nO público-alvo dessa análise é a sociedade em geral, com ênfase especial nos brasileiros, visto que o foco dos dados é o território nacional. A ideia é informar tanto o público leigo quanto profissionais e tomadores de decisão interessados em entender os padrões e riscos relacionados as queimadas no Brasil.\n\n\nAo explorar esse conjunto de dados, levantei diversos questionamentos sobre as relações entre variáveis, a existência de regiões com maior risco de incêndios e a relação com outros fatores. Ao longo deste relatório, apresentarei uma série de respostas para essas perguntas e outras, que serão discutidas com base na análise realizada.\n\n\n\n\n\nEste conjunto de dados é uma fonte primária, ou seja fornece informações originais, coletadas diretamente por quem realizou a medição. Nesse caso, os dados foram obtidos no portal de dados abertos do Programa Queimadas do Instituto Nacional de Pesquisas Espaciais (INPE). A coleta foi realizada no dia 26/05, a partir do conjunto nomeado Focos de Queimadas e Incêndios, no formato CSV e referente a base do mês de maio que contempla toda a América Latina.\n\n\n\n\n\nNesta base de dados, temos 131.180 observações e 16 variáveis de três tipos. As variáveis do tipo chr (character) correspondem a variáveis categóricas nominais, pois representam categorias sem uma ordem natural. As do tipo double (dbl) são variáveis quantitativas contínuas, utilizadas para representar números reais, podendo conter casas decimais, enquanto as do tipo integer (int), que também são quantitativas, mas discretas, assumem apenas valores inteiros. Há ainda uma variável do tipo date, que é temporal, utilizada para representar datas no formato ano-mês-dia, permitindo análises ao longo do tempo.\n\n\nA base original trata da América Latina e o foco dessa EDA é somente no Brasil, então afunilei seguindo essa linha de raciocínio e, no total, trabalhei com 930 observações e 5 variáveis: data, estado, dia sem chuva, risco fogo e bioma."
   },
   {
-    "objectID": "projetos.html#projetos-externos",
-    "href": "projetos.html#projetos-externos",
-    "title": "Meus Projetos",
-    "section": "Projetos Externos",
-    "text": "Projetos Externos"
+    "objectID": "projetos/relatorio-queimadas.html#análise-e-visualização-dos-dados",
+    "href": "projetos/relatorio-queimadas.html#análise-e-visualização-dos-dados",
+    "title": "Explorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados",
+    "section": "Análise e Visualização dos Dados",
+    "text": "Análise e Visualização dos Dados\n\nRanking das UFs de dias sem chuva\n\nQual unidade federativa tem a maior mediana de dias sem chuvas?\n\n\n\nTabela 1: Top 5 Estados por Mediana de Dias Sem Chuva\n\n\nEstado\nMediana dos dias sem chuva\n\n\n\n\nMINAS GERAIS\n13,95\n\n\nPERNAMBUCO\n13,19\n\n\nDISTRITO FEDERAL\n12,00\n\n\nGOIÁS\n10,86\n\n\nMATO GROSSO\n10,09\n\n\n\n\n\n\nA Tabela 1 apresenta os cinco estados com as maiores medianas da variável “Dias sem chuvas”, que representa períodos de seca. A mediana foi escolhida como medida de tendência central por ser mais robusta frente a valores extremos e oferecer uma visão mais representativa da distribuição dos dados. Minas Gerais se destaca com a maior mediana entre os estados. Isso significa que para MG 50% das observações registradas apresentam menos de 14 dias sem chuva, enquanto os outros 50% tem valores acima desse número.\n\n\n\n\nAnalisando a Frequência de Focos de Queimadas por Biomas\n\nQuais biomas se destacam? Será que o Cerrado tem mais foco por ser mais seco?\n\n\n\n\n\n\n\nNa Figura 1, são apresentados os focos de queimadas por bioma, por meio de um gráfico de barras horizontal, em que o eixo Y representa os biomas da base de dados e o eixo X indica a quantidade de focos de queimadas. Respondendo as perguntas, é possível observar que os três biomas que mais se destacam são a Mata Atlântica, o Cerrado e a Caatinga.\n\n\n\n\nRelacionando variáveis\n\nExiste uma relação entre o número de dias sem chuva e o aumento do risco de fogo?\n\n\n\n\n\n\n\nNa Figura 2, é apresentado um gráfico de dispersão em que cada ponto representa uma observação com o número de dias sem chuva no eixo X e o risco de fogo no eixo Y. O gráfico sugere que existe uma relação positiva entre as variáveis, pois é possível observar claramente que, conforme o número de dias sem chuva aumenta, o risco de fogo também tende a crescer.\n\n\nNota: Como os dados foram analisados no software R, os números com casas decimais aparecem utilizando o ponto (.) como separador decimal, em vez da vírgula (,). Portanto, um valor como 13.954 deve ser lido como 13,954 dias e não como treze mil.\n\n\n\n\n\n\nDimensão Geográfica\n\nQuais regiões tem mais risco? E quais tem menos?\n\n\n\n\n\n\n\nNa Figura 3, temos um mapa do Brasil que mostra o risco médio de fogo por estado, representado por um gradiente de cores que varia do amarelo claro, indicando menores índices, ao vermelho forte, indicando maiores índices. Analisando o mapa, é possível dizer que a região Nordeste apresenta maior risco médio de fogo por estado, enquanto a região Sul apresenta menor risco."
+  },
+  {
+    "objectID": "projetos/relatorio-queimadas.html#conclusão",
+    "href": "projetos/relatorio-queimadas.html#conclusão",
+    "title": "Explorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados",
+    "section": "Conclusão",
+    "text": "Conclusão\n\nUm dos maiores desafios, nessa análise foi “filtrar” a base de dados, pois é uma base bem grande e com muita coisa interessante, então talvez o limite estabelecido tenha sido um grande desafio. Destaco principalmente a Figura 4 (Mapa de risco médio de fogo por estado), pois, além de demorar a carregar, muitos erros foram encontrados, logo foi o gráfico mais difícil de fazer.\n\n\nNessa análise exploratória, foi possível identificar padrões importantes relacionados aos focos de queimadas e incêndios no Brasil durante o mês de maio de 2025. A mediana de dias sem chuva mostrou que estados como Minas Gerais apresentam períodos longos de seca. A análise dos biomas revelou que Mata Atlântica, Cerrado e Caatinga são os que registram maior número de focos de queimadas. O gráfico de dispersão evidenciou que períodos mais secos tendem a aumentar a probabilidade dos incêndios. Já a dimensão geográfica, representada pelo mapa de risco médio por estado, apontou que a região Nordeste apresenta um risco maior, enquanto a região Sul demonstra menor vulnerabilidade a incêndios.\n\n\nAcredito que foram bons resultados, mas destaco a necessidade de aprofundar as análises, incorporando outras variáveis ambientais, socioeconômicas e políticas para entender melhor os fatores que influenciam a ocorrência das queimadas no Brasil. E também porque essa foi uma análise considerando somente o mês de maio, talvez uma visualização do ano todo seja melhor. Além disso, talvez seja possível usar esses dados para desenvolver estratégias de prevenção ou combate das queimadas e incêndios, visando proteger o meio ambiente, mas também as populações afetadas."
+  },
+  {
+    "objectID": "projetos/relatorio-queimadas.html#referências",
+    "href": "projetos/relatorio-queimadas.html#referências",
+    "title": "Explorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados",
+    "section": "Referências",
+    "text": "Referências\nInstituto Nacional de Pesquisas Espaciais (INPE). Base de dados sobre queimadas – TerraBrasilis. Disponível em: https://terrabrasilis.dpi.inpe.br/queimadas/portal/dados-abertos/. Acesso em: 26/05/2025.\nWICKHAM, Hadley; GROLEMUND, Garrett. R for Data Science (2ª edição). Disponível em: https://r4ds.hadley.nz/. Acesso em: 28/05/2025.\nQuarto Documentation – Guide. Disponível em: https://quarto.org/docs/guide/. Acesso em: 30/05/2025.\nBUCKERIDGE, Marcos. As várias faces dos incêndios no Brasil. Jornal da USP. Disponível em: https://jornal.usp.br/articulistas/marcos-buckeridge/as-varias-faces-dos-incendios-no-brasil/. Acesso em: 02/06/2025.\nR CORE TEAM. R: A Language and Environment for Statistical Computing. Vienna: R Foundation for Statistical Computing, 2025. Disponível em: https://www.r-project.org/. Acesso em: 02/06/2025.\nWICKHAM, Hadley et al. Welcome to the tidyverse. Journal of Open Source Software, v. 4, n. 43, p. 1686, 2019. doi:10.21105/joss.01686. Disponível em: https://doi.org/10.21105/joss.01686. Acesso em: 02/06/2025.\nGROLEMUND, Garrett; WICKHAM, Hadley. Dates and Times Made Easy with lubridate. Journal of Statistical Software, v. 40, n. 3, p. 1–25, 2011. Disponível em: https://www.jstatsoft.org/v40/i03/. Acesso em: 02/06/2025.\nPEREIRA, Renato; GONÇALVES, Caio. geobr: Download Official Spatial Data Sets of Brazil. R package version 1.9.1, 2024. doi:10.32614/CRAN.package.geobr. Disponível em: https://CRAN.R-project.org/package=geobr. Acesso em: 02/06/2025.\nWICKHAM, Hadley. stringr: Simple, Consistent Wrappers for Common String Operations. R package version 1.5.1, 2023. doi:10.32614/CRAN.package.stringr. Disponível em: https://CRAN.R-project.org/package=stringr. Acesso em: 02/06/2025.\nLENTE, Caio; TRECENTI, Jurandir. abjutils: Useful Tools for Jurimetrical Analysis Used by the Brazilian Jurimetrics Association. R package version 0.3.2, 2022. doi:10.32614/CRAN.package.abjutils. Disponível em: https://CRAN.R-project.org/package=abjutils. Acesso em: 02/06/2025.\nXIE, Yihui. knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.50, 2025. Disponível em: https://yihui.org/knitr/. Acesso em: 02/06/2025."
+  },
+  {
+    "objectID": "contato.html",
+    "href": "contato.html",
+    "title": "Contato",
+    "section": "",
+    "text": "Fique à vontade para entrar em contato! Estou aberta a colaborações, projetos, dúvidas sobre meus trabalhos ou apenas uma boa conversa sobre dados, arte e tecnologia."
   },
   {
     "objectID": "about.html",
@@ -28,10 +49,31 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "curriculo.html",
+    "href": "curriculo.html",
+    "title": "Meu Currículo",
+    "section": "",
+    "text": "Aqui está meu currículo completo com informações sobre minha formação acadêmica, habilidades técnicas, experiências profissionais, projetos voluntários e publicações. Também é possível fazer o download da versão em PDF.\n(em construção…)"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "meu-site",
+    "title": "Bem-vindo(a)!",
     "section": "",
-    "text": "teste"
+    "text": "Olá, eu sou a Luíza Helena\nAtualmente sou estudante de Estatística e esse site é o meu portifólio. Desenvolvido inteiramente por mim e aqui compartilho meus projetos, aprendizados e experiências. Navegue para conhecer mais sobre mim!"
+  },
+  {
+    "objectID": "projetos.html",
+    "href": "projetos.html",
+    "title": "Meus Projetos",
+    "section": "",
+    "text": "Nesta seção você encontrará uma seleção dos projetos que venho desenvolvendo ao longo da minha formação em Estatística, com foco em R, Python, análise de dados, dashboards interativos e visualizações informativas. Cada projeto é uma etapa do meu aprendizado e da minha atuação prática em dados.\n\n\n\n\n\n\n\n\n\n\n\n\nExplorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados\n\n\n\n\n\n\nLuíza Helena Pereira Lúcio\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "historia.html",
+    "href": "historia.html",
+    "title": "Um pouco da minha história",
+    "section": "",
+    "text": "Conteúdo em breve…\nEstou preparando algo especial para esta seção :)"
   }
 ]

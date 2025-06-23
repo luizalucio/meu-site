@@ -1,5 +1,14 @@
 ---
-title: "meu-site"
+title: "Bem-vindo(a)!"
 ---
 
-teste
+<!-- Adiciona a fonte Lato -->
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+![](contorno-foto.png){width=150px style="border-radius: 50%; margin-bottom: 1rem;"}
+
+# Olá, eu sou a Luíza Helena
+
+Atualmente sou estudante de Estatística e esse site é o meu portifólio. Desenvolvido inteiramente por mim e aqui compartilho meus projetos, aprendizados e experiências. Navegue para conhecer mais sobre mim!
+

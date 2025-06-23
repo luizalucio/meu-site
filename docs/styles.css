@@ -1,0 +1,24 @@
+/* Fonte mais limpa */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Títulos com roxo suave */
+h1, h2, h3, h4 {
+  color: #b57edc;
+}
+
+/* Cor dos parágrafos */
+p {
+  color: #83177c;
+}
+
+/* Links com turquesa e hover amarelo */
+a {
+  color: #58c6c3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fbd405;
+}

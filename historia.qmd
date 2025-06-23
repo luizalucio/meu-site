@@ -1,0 +1,10 @@
+---
+title: "Um pouco da minha história"
+---
+
+![](aguarde.png){width="400px" style="display: block; margin: 2rem auto;"}
+
+### Conteúdo em breve...
+
+Estou preparando algo especial para esta seção :)
+

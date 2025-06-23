@@ -1,0 +1,5 @@
+# relatorios.yml
+- title: "Relatório sobre Queimadas"
+  path: "relatorios/relatorio-queimadas.qmd"
+  date: "2025-06-20"
+  description: "Análise das queimadas com base na sua base de dados."

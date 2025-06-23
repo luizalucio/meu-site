@@ -1,9 +1,10 @@
 ---
 title: "Meus Projetos"
+listing:
+  type: grid
+  contents: "projetos/*.qmd"
 ---
 
-## Projetos em Quarto
-- [Relatório de Queimadas](/relatorio_queimadas.html) 
-
-## Projetos Externos
+Nesta seção você encontrará uma seleção dos projetos que venho desenvolvendo ao longo da minha formação em Estatística, com foco em R, Python, análise de dados, dashboards interativos e visualizações informativas. Cada projeto é uma etapa do meu aprendizado e da minha atuação prática em dados.
  
+
