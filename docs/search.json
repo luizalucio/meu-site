@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "sobre.html",
+    "href": "sobre.html",
+    "title": "Sobre mim",
+    "section": "",
+    "text": "Conteúdo em breve…\nEstou preparando algo especial para esta seção :)"
+  },
+  {
     "objectID": "projetos/relatorio-queimadas.html",
     "href": "projetos/relatorio-queimadas.html",
     "title": "Explorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados",
@@ -35,6 +42,13 @@
     "text": "Referências\nInstituto Nacional de Pesquisas Espaciais (INPE). Base de dados sobre queimadas – TerraBrasilis. Disponível em: https://terrabrasilis.dpi.inpe.br/queimadas/portal/dados-abertos/. Acesso em: 26/05/2025.\nWICKHAM, Hadley; GROLEMUND, Garrett. R for Data Science (2ª edição). Disponível em: https://r4ds.hadley.nz/. Acesso em: 28/05/2025.\nQuarto Documentation – Guide. Disponível em: https://quarto.org/docs/guide/. Acesso em: 30/05/2025.\nBUCKERIDGE, Marcos. As várias faces dos incêndios no Brasil. Jornal da USP. Disponível em: https://jornal.usp.br/articulistas/marcos-buckeridge/as-varias-faces-dos-incendios-no-brasil/. Acesso em: 02/06/2025.\nR CORE TEAM. R: A Language and Environment for Statistical Computing. Vienna: R Foundation for Statistical Computing, 2025. Disponível em: https://www.r-project.org/. Acesso em: 02/06/2025.\nWICKHAM, Hadley et al. Welcome to the tidyverse. Journal of Open Source Software, v. 4, n. 43, p. 1686, 2019. doi:10.21105/joss.01686. Disponível em: https://doi.org/10.21105/joss.01686. Acesso em: 02/06/2025.\nGROLEMUND, Garrett; WICKHAM, Hadley. Dates and Times Made Easy with lubridate. Journal of Statistical Software, v. 40, n. 3, p. 1–25, 2011. Disponível em: https://www.jstatsoft.org/v40/i03/. Acesso em: 02/06/2025.\nPEREIRA, Renato; GONÇALVES, Caio. geobr: Download Official Spatial Data Sets of Brazil. R package version 1.9.1, 2024. doi:10.32614/CRAN.package.geobr. Disponível em: https://CRAN.R-project.org/package=geobr. Acesso em: 02/06/2025.\nWICKHAM, Hadley. stringr: Simple, Consistent Wrappers for Common String Operations. R package version 1.5.1, 2023. doi:10.32614/CRAN.package.stringr. Disponível em: https://CRAN.R-project.org/package=stringr. Acesso em: 02/06/2025.\nLENTE, Caio; TRECENTI, Jurandir. abjutils: Useful Tools for Jurimetrical Analysis Used by the Brazilian Jurimetrics Association. R package version 0.3.2, 2022. doi:10.32614/CRAN.package.abjutils. Disponível em: https://CRAN.R-project.org/package=abjutils. Acesso em: 02/06/2025.\nXIE, Yihui. knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.50, 2025. Disponível em: https://yihui.org/knitr/. Acesso em: 02/06/2025."
   },
   {
+    "objectID": "historia.html",
+    "href": "historia.html",
+    "title": "Um pouco da minha história",
+    "section": "",
+    "text": "Conteúdo em breve…\nEstou preparando algo especial para esta seção :)"
+  },
+  {
     "objectID": "contato.html",
     "href": "contato.html",
     "title": "Contato",
@@ -53,7 +67,7 @@
     "href": "curriculo.html",
     "title": "Meu Currículo",
     "section": "",
-    "text": "Aqui está meu currículo completo com informações sobre minha formação acadêmica, habilidades técnicas, experiências profissionais, projetos voluntários e publicações. Também é possível fazer o download da versão em PDF.\n(em construção…)"
+    "text": "Aqui está meu currículo completo com informações sobre minha formação acadêmica, habilidades técnicas, experiências profissionais, projetos voluntários e publicações. Também é possível fazer o download da versão em PDF.\n\n\nConteúdo em breve…\nEstou preparando algo especial para esta seção :)"
   },
   {
     "objectID": "index.html",
@@ -68,12 +82,5 @@
     "title": "Meus Projetos",
     "section": "",
     "text": "Nesta seção você encontrará uma seleção dos projetos que venho desenvolvendo ao longo da minha formação em Estatística, com foco em R, Python, análise de dados, dashboards interativos e visualizações informativas. Cada projeto é uma etapa do meu aprendizado e da minha atuação prática em dados.\n\n\n\n\n\n\n\n\n\n\n\n\nExplorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados\n\n\n\n\n\n\nLuíza Helena Pereira Lúcio\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "historia.html",
-    "href": "historia.html",
-    "title": "Um pouco da minha história",
-    "section": "",
-    "text": "Conteúdo em breve…\nEstou preparando algo especial para esta seção :)"
   }
 ]
