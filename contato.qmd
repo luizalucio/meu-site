@@ -1,9 +1,16 @@
 ---
 title: "Contato"
 ---
+```markdown
+<div class="language-toggle">
+  <button onclick="setLanguage('pt')">🇧🇷 Português</button>
+  <button onclick="setLanguage('en')">🇺🇸 English</button>
+</div>
+```
 
 Fique à vontade para entrar em contato! Estou aberta a colaborações, projetos, dúvidas sobre meus trabalhos ou apenas uma boa conversa sobre dados, arte e tecnologia.
 
+Você pode me achar aqui:
+
 [![GitHub](https://img.shields.io/badge/GitHub-luizalucio-000?logo=github)](https://github.com/luizalucio)\
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-luizahplucio-blue?logo=linkedin)](https://www.linkedin.com/in/luizahplucio/)\
-[![Email](https://img.shields.io/badge/E-mail-luiza.lucio1@estudante.ufla.br-red?logo=gmail)](mailto:luiza.lucio1@estudante.ufla.br)

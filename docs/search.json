@@ -1,10 +1,73 @@
 [
   {
-    "objectID": "sobre.html",
-    "href": "sobre.html",
-    "title": "Sobre mim",
+    "objectID": "projetos.html",
+    "href": "projetos.html",
+    "title": "Meus Projetos",
+    "section": "",
+    "text": "Nesta seção você encontrará uma seleção dos projetos que venho desenvolvendo ao longo da minha formação em Estatística, com foco em R, Python, análise de dados, dashboards interativos e visualizações informativas. Cada projeto é uma etapa do meu aprendizado e da minha atuação prática em dados.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nExplorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados\n\n\nLuíza Helena Pereira Lúcio\n\n\n\n\n\n\nㅤㅤFocos de queimadas e incêndios\n\n\n \n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "historia.html",
+    "href": "historia.html",
+    "title": "Linha do Tempo",
     "section": "",
     "text": "Conteúdo em breve…\nEstou preparando algo especial para esta seção :)"
+  },
+  {
+    "objectID": "contato.html",
+    "href": "contato.html",
+    "title": "Contato",
+    "section": "",
+    "text": "&lt;div class=\"language-toggle\"&gt;\n  &lt;button onclick=\"setLanguage('pt')\"&gt;🇧🇷 Português&lt;/button&gt;\n  &lt;button onclick=\"setLanguage('en')\"&gt;🇺🇸 English&lt;/button&gt;\n&lt;/div&gt;\nFique à vontade para entrar em contato! Estou aberta a colaborações, projetos, dúvidas sobre meus trabalhos ou apenas uma boa conversa sobre dados, arte e tecnologia.\nVocê pode me achar aqui:"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "curriculo.html",
+    "href": "curriculo.html",
+    "title": "Meu Currículo",
+    "section": "",
+    "text": "Baixar PDF"
+  },
+  {
+    "objectID": "curriculo.html#currículo-em-português",
+    "href": "curriculo.html#currículo-em-português",
+    "title": "Meu Currículo",
+    "section": "",
+    "text": "Baixar PDF"
+  },
+  {
+    "objectID": "curriculo.html#curriculum-vitae---english",
+    "href": "curriculo.html#curriculum-vitae---english",
+    "title": "Meu Currículo",
+    "section": "Curriculum Vitae - English",
+    "text": "Curriculum Vitae - English\nDownload PDF"
+  },
+  {
+    "objectID": "eventos.html",
+    "href": "eventos.html",
+    "title": "Eventos (Events)",
+    "section": "",
+    "text": "Conteúdo em breve…\nEstou preparando algo especial para esta seção :)"
+  },
+  {
+    "objectID": "index.html#olá-eu-sou-a-luíza-helena",
+    "href": "index.html#olá-eu-sou-a-luíza-helena",
+    "title": "Bem-vindo(a)!",
+    "section": "Olá, eu sou a Luíza Helena!",
+    "text": "Olá, eu sou a Luíza Helena!\nAtualmente sou estudante de Estatística e esse site é o meu portifólio. Desenvolvido inteiramente por mim e aqui compartilho meus projetos, aprendizados e experiências.\nNavegue para conhecer mais sobre mim!"
+  },
+  {
+    "objectID": "index.html#hi-im-luíza-helena",
+    "href": "index.html#hi-im-luíza-helena",
+    "title": "Bem-vindo(a)!",
+    "section": "Hi, I’m Luíza Helena!",
+    "text": "Hi, I’m Luíza Helena!\nI’m currently a Statistics student, and this website is my portfolio. Developed entirely by me, I share my projects, learnings and experiences here."
   },
   {
     "objectID": "projetos/relatorio-queimadas.html",
@@ -42,45 +105,10 @@
     "text": "Referências\nInstituto Nacional de Pesquisas Espaciais (INPE). Base de dados sobre queimadas – TerraBrasilis. Disponível em: https://terrabrasilis.dpi.inpe.br/queimadas/portal/dados-abertos/. Acesso em: 26/05/2025.\nWICKHAM, Hadley; GROLEMUND, Garrett. R for Data Science (2ª edição). Disponível em: https://r4ds.hadley.nz/. Acesso em: 28/05/2025.\nQuarto Documentation – Guide. Disponível em: https://quarto.org/docs/guide/. Acesso em: 30/05/2025.\nBUCKERIDGE, Marcos. As várias faces dos incêndios no Brasil. Jornal da USP. Disponível em: https://jornal.usp.br/articulistas/marcos-buckeridge/as-varias-faces-dos-incendios-no-brasil/. Acesso em: 02/06/2025.\nR CORE TEAM. R: A Language and Environment for Statistical Computing. Vienna: R Foundation for Statistical Computing, 2025. Disponível em: https://www.r-project.org/. Acesso em: 02/06/2025.\nWICKHAM, Hadley et al. Welcome to the tidyverse. Journal of Open Source Software, v. 4, n. 43, p. 1686, 2019. doi:10.21105/joss.01686. Disponível em: https://doi.org/10.21105/joss.01686. Acesso em: 02/06/2025.\nGROLEMUND, Garrett; WICKHAM, Hadley. Dates and Times Made Easy with lubridate. Journal of Statistical Software, v. 40, n. 3, p. 1–25, 2011. Disponível em: https://www.jstatsoft.org/v40/i03/. Acesso em: 02/06/2025.\nPEREIRA, Renato; GONÇALVES, Caio. geobr: Download Official Spatial Data Sets of Brazil. R package version 1.9.1, 2024. doi:10.32614/CRAN.package.geobr. Disponível em: https://CRAN.R-project.org/package=geobr. Acesso em: 02/06/2025.\nWICKHAM, Hadley. stringr: Simple, Consistent Wrappers for Common String Operations. R package version 1.5.1, 2023. doi:10.32614/CRAN.package.stringr. Disponível em: https://CRAN.R-project.org/package=stringr. Acesso em: 02/06/2025.\nLENTE, Caio; TRECENTI, Jurandir. abjutils: Useful Tools for Jurimetrical Analysis Used by the Brazilian Jurimetrics Association. R package version 0.3.2, 2022. doi:10.32614/CRAN.package.abjutils. Disponível em: https://CRAN.R-project.org/package=abjutils. Acesso em: 02/06/2025.\nXIE, Yihui. knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.50, 2025. Disponível em: https://yihui.org/knitr/. Acesso em: 02/06/2025."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bem-vindo(a)!",
-    "section": "",
-    "text": "Olá, eu sou a Luíza Helena\nAtualmente sou estudante de Estatística e esse site é o meu portifólio. Desenvolvido inteiramente por mim e aqui compartilho meus projetos, aprendizados e experiências. Navegue para conhecer mais sobre mim!"
-  },
-  {
-    "objectID": "curriculo.html",
-    "href": "curriculo.html",
-    "title": "Meu Currículo",
-    "section": "",
-    "text": "Aqui está meu currículo completo com informações sobre minha formação acadêmica, habilidades técnicas, experiências profissionais, projetos voluntários e publicações. Também é possível fazer o download da versão em PDF.\n\n\nConteúdo em breve…\nEstou preparando algo especial para esta seção :)"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "contato.html",
-    "href": "contato.html",
-    "title": "Contato",
-    "section": "",
-    "text": "Fique à vontade para entrar em contato! Estou aberta a colaborações, projetos, dúvidas sobre meus trabalhos ou apenas uma boa conversa sobre dados, arte e tecnologia."
-  },
-  {
-    "objectID": "historia.html",
-    "href": "historia.html",
-    "title": "Um pouco da minha história",
+    "objectID": "sobre.html",
+    "href": "sobre.html",
+    "title": "Sobre mim",
     "section": "",
     "text": "Conteúdo em breve…\nEstou preparando algo especial para esta seção :)"
-  },
-  {
-    "objectID": "projetos.html",
-    "href": "projetos.html",
-    "title": "Meus Projetos",
-    "section": "",
-    "text": "Nesta seção você encontrará uma seleção dos projetos que venho desenvolvendo ao longo da minha formação em Estatística, com foco em R, Python, análise de dados, dashboards interativos e visualizações informativas. Cada projeto é uma etapa do meu aprendizado e da minha atuação prática em dados.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nExplorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados\n\n\nLuíza Helena Pereira Lúcio\n\n\n\n\n\n\nㅤㅤFocos de queimadas e incêndios\n\n\n \n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -1,14 +1,26 @@
 ---
 title: "Bem-vindo(a)!"
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
 ---
-
-<!-- Adiciona a fonte Lato -->
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-
 
 ![](contorno-foto.png){width=150px style="border-radius: 50%; margin-bottom: 1rem;"}
 
-# Olá, eu sou a Luíza Helena
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
-Atualmente sou estudante de Estatística e esse site é o meu portifólio. Desenvolvido inteiramente por mim e aqui compartilho meus projetos, aprendizados e experiências. Navegue para conhecer mais sobre mim!
+<div class="lang pt">
+## Olá, eu sou a Luíza Helena!
+
+Atualmente sou estudante de Estatística e esse site é o meu portifólio. Desenvolvido inteiramente por mim e aqui compartilho meus projetos, aprendizados e experiências.
+
+Navegue para conhecer mais sobre mim!
+</div>
+
+<div class="lang en" style="display:none;">
+## Hi, I'm Luíza Helena!
+I'm currently a Statistics student, and this website is my portfolio. Developed entirely by me, I share my projects, learnings and experiences here.
+</div>
 

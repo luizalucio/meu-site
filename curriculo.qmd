@@ -2,10 +2,9 @@
 title: "Meu Currículo"
 ---
 
-Aqui está meu currículo completo com informações sobre minha formação acadêmica, habilidades técnicas, experiências profissionais, projetos voluntários e publicações. Também é possível fazer o download da versão em PDF.
+## Currículo em Português
+[Baixar PDF](Curriculo_Luiza_Helena.pdf)
 
-![](aguarde.png){width="400px" style="display: block; margin: 2rem auto;"}
+## Curriculum Vitae - English
+[Download PDF](Resume_Luiza_Helena_Pereira_Lúcio_English.pdf)
 
-### Conteúdo em breve...
-
-Estou preparando algo especial para esta seção :)
