@@ -1,12 +1,6 @@
 ---
 title: "Contato"
 ---
-```markdown
-<div class="language-toggle">
-  <button onclick="setLanguage('pt')">🇧🇷 Português</button>
-  <button onclick="setLanguage('en')">🇺🇸 English</button>
-</div>
-```
 
 Fique à vontade para entrar em contato! Estou aberta a colaborações, projetos, dúvidas sobre meus trabalhos ou apenas uma boa conversa sobre dados, arte e tecnologia.
 

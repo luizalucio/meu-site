@@ -18,7 +18,7 @@
     "href": "contato.html",
     "title": "Contato",
     "section": "",
-    "text": "&lt;div class=\"language-toggle\"&gt;\n  &lt;button onclick=\"setLanguage('pt')\"&gt;🇧🇷 Português&lt;/button&gt;\n  &lt;button onclick=\"setLanguage('en')\"&gt;🇺🇸 English&lt;/button&gt;\n&lt;/div&gt;\nFique à vontade para entrar em contato! Estou aberta a colaborações, projetos, dúvidas sobre meus trabalhos ou apenas uma boa conversa sobre dados, arte e tecnologia.\nVocê pode me achar aqui:"
+    "text": "Fique à vontade para entrar em contato! Estou aberta a colaborações, projetos, dúvidas sobre meus trabalhos ou apenas uma boa conversa sobre dados, arte e tecnologia.\nVocê pode me achar aqui:"
   },
   {
     "objectID": "about.html",
