@@ -4,39 +4,32 @@ project:
 
 website:
   title: "Luíza Helena Pereira Lúcio"
-navbar:
-  left:
-    - href: index.qmd
-      text: Início
-    - href: historia.qmd
-      text: Minha história
-    - href: experiencia.qmd
-      text: Experiência
-    - href: projetos.qmd
-      text: Projetos
-    - href: eventos.qmd
-      text: Eventos
-    - href: voluntariado.qmd
-      text: Voluntariado
-    - href: curriculo.qmd
-      text: Currículo
-    - href: contato.qmd
-      text: Contato
-      # - href: blog.qmd         # <- descomente essa linha quando for criar o blog
-      #   text: Blog
-
+  navbar:
+    left:
+      - href: index.qmd
+        text: Início
+      - href: historia.qmd
+        text: Minha história
+      - href: experiencia.qmd
+        text: Experiência
+      - href: projetos.qmd
+        text: Projetos
+      - href: eventos.qmd
+        text: Eventos
+      - href: voluntariado.qmd
+        text: Voluntariado
+      - href: curriculo.qmd
+        text: Currículo
+      - href: contato.qmd
+        text: Contato
   page-footer:
     center: |
-     This site was made with ❤️ using [RStudio](https://posit.co) and [Quarto](https://quarto.org).
+      This site was made with ❤️ using [RStudio](https://posit.co) and [Quarto](https://quarto.org).
 
 format:
   html:
     theme: flatly
     toc: true
     smooth-scroll: true
-    css: styles.css
-   
-
-
-    
+    css: style.css
   

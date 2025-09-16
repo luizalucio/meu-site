@@ -1,34 +1,45 @@
-name: Render and Push Site
+name: Render and Deploy Quarto Site
 
 on:
   push:
     branches: [main]
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout do código
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Instalar dependências do sistema
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev gfortran build-essential
+
+      # Configurar R
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
 
+      # Configurar Quarto
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      # Instalar pacotes R necessários manualmente
       - name: Install R packages
-        run: |
-          Rscript -e 'install.packages("quarto")'
+        run: Rscript -e 'install.packages(c("tidyverse"), repos="https://cloud.r-project.org")'
 
+      # Renderizar o site
       - name: Render site
         run: quarto render
 
+      # Commit e push do site renderizado
       - name: Commit and Push rendered site
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add docs/
-          git commit -m "Render site"
-          git push
+          git commit -m "Render site" || echo "No changes to commit"
+          git pushquar

@@ -3,8 +3,11 @@ title: "Meus Projetos"
 listing:
   type: table
   contents: "projetos/*.qmd"
+format:
+  html:
+    theme: default 
 ---
 
-Nesta seção você encontrará uma seleção dos projetos que venho desenvolvendo ao longo da minha formação em Estatística, com foco em R, Python, análise de dados, dashboards interativos e visualizações informativas. Cada projeto é uma etapa do meu aprendizado e da minha atuação prática em dados.
+Nesta seção você encontrará uma seleção dos projetos que venho desenvolvendo ao longo da minha formação em Estatística, com foco em R, Python, análise de dados, dashboards interativos e visualizações informativas. Cada projeto é uma etapa do meu aprendizado e da minha atuação prática em dados. :)
  
 

@@ -1,5 +1,8 @@
 ---
-  title: " Eventos (Events)"
+title: "Eventos (Events)"
+format:
+  html:
+    css: style.css
 ---
 
 ### Conteúdo em breve...

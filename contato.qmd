@@ -1,5 +1,8 @@
 ---
 title: "Contato"
+format:
+  html:
+    css: style.css
 ---
 
 Fique à vontade para entrar em contato! Estou aberta a colaborações, projetos, dúvidas sobre meus trabalhos ou apenas uma boa conversa sobre dados, arte e tecnologia.

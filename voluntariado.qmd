@@ -1,5 +1,8 @@
 ---
 title: "Meus Voluntariados"
+format:
+  html:
+    css: style.css
 ---
 ### Conteúdo em breve...
 
