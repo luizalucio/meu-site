@@ -1,0 +1,45 @@
+---
+title: "CD na Escola"
+subtitle: "Plataforma educacional · Bolsista FAPEMIG · Em andamento"
+description: "Projeto educacional que aproxima estudantes do pensamento estatístico e da ciência de dados de forma acessível. Bolsista FAPEMIG — UFLA. Inspirado na trajetória de Florence Nightingale."
+date: "2025-08-01"
+categories: [Projeto em Andamento, Educação, Quarto, FAPEMIG, UFLA]
+image: mgest.JPG
+---
+
+::: {.bilingual-note}
+🇧🇷 Em andamento | 🇬🇧 Work in progress
+:::
+
+## Sobre o Projeto
+
+O Ciência de Dados na Escola (CD na Escola) é um projeto educacional que busca aproximar estudantes do ensino básico do pensamento estatístico e da ciência de dados de forma acessível e contextualizada, sem exigir conhecimentos técnicos avançados.
+
+O projeto parte da ideia de que dados fazem parte do cotidiano e podem ser usados como ferramenta para desenvolver habilidades como interpretação de informações, raciocínio crítico e tomada de decisão. A iniciativa é inspirada na trajetória de Florence Nightingale, pioneira no uso de visualização de dados para comunicar evidências e transformar realidades.
+
+Como bolsista FAPEMIG, atuo no desenvolvimento de uma plataforma educacional construída com Quarto, além de produzir conteúdos sobre tecnologia e estatística adaptados ao contexto escolar.
+
+Detalhes completos em breve, projeto em desenvolvimento,
+
+::: {.tech-tag}
+Quarto
+:::
+::: {.tech-tag}
+Educação de Dados
+:::
+::: {.tech-tag}
+FAPEMIG
+:::
+::: {.tech-tag}
+Visualização
+:::
+
+---
+
+## About (English)
+
+CD na Escola (Data Science at School) is an educational project that brings statistical thinking and data science to school students in an accessible, contextualized way - inspired by Florence Nightingale's pioneering use of data visualization to communicate evidence and drive change.
+
+As a FAPEMIG scholarship holder, I work on developing an educational platform built with Quarto and producing data and technology content adapted for the school context. 
+
+Full details coming soon.

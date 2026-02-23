@@ -1,0 +1,44 @@
+---
+title: "Sistema de Controle Financeiro Empresarial"
+subtitle: "Python · Fundamentos de Programação · UFLA"
+description: "Sistema em Python com menu interativo para controle de receitas, despesas e salários. Desenvolvido para a disciplina Fundamentos de Programação (GES135) — UFLA, fev/2026."
+date: "2026-02-01"
+categories: [Python, Projeto Prático, UFLA]
+image: ../images/proj-fundamentos.png
+---
+
+::: {.bilingual-note}
+🇧🇷 **Português** | 🇬🇧 **English version below**
+:::
+
+## Sobre o Projeto
+
+Miniprojeto desenvolvido na disciplina **Fundamentos de Programação (GES135)** do curso de Estatística da UFLA. O objetivo foi transformar uma necessidade cotidiana em solução estruturada com Python, passando por todas as etapas: fluxograma, pseudocódigo em Portugol e implementação final.
+
+A empresa fictícia **Scranton Tech Solutions** fornece serviços de TI com três planos mensais. O sistema gerencia receitas, despesas e salários com validação de entradas e exibição de extrato.
+
+::: {.tech-tag}
+Python
+:::
+::: {.tech-tag}
+Estruturas de controle
+:::
+::: {.tech-tag}
+Funções
+:::
+::: {.tech-tag}
+Listas
+:::
+
+### 🔗 Links
+
+- [Código-fonte — GitHub](https://github.com/luizalucio/fundamentos-de-programacao)
+- [Documento do Projeto (PDF)](https://github.com/luizalucio/fundamentos-de-programacao/blob/main/miniprojeto_luiza_helena.pdf)
+
+---
+
+## About *(English)*
+
+Mini-project for the **Programming Fundamentals (GES135)** course at UFLA. Built a Python financial control system for a fictional IT company, covering flowchart design, Portugol pseudocode, and final implementation.
+
+- [Source Code — GitHub](https://github.com/luizalucio/fundamentos-de-programacao)

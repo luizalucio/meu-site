@@ -4,39 +4,41 @@ project:
 
 website:
   title: "Luíza Helena Pereira Lúcio"
-navbar:
-  left:
-    - href: index.qmd
-      text: Início
-    - href: historia.qmd
-      text: Minha história
-    - href: experiencia.qmd
-      text: Experiência
-    - href: projetos.qmd
-      text: Projetos
-    - href: eventos.qmd
-      text: Eventos
-    - href: voluntariado.qmd
-      text: Voluntariado
-    - href: curriculo.qmd
-      text: Currículo
-    - href: contato.qmd
-      text: Contato
-      # - href: blog.qmd         # <- descomente essa linha quando for criar o blog
-      #   text: Blog
+  description: "Estatística | Análise de Dados | R & Python"
+  
+  navbar:
+    left:
+      - href: index.qmd
+        text: Início / Home
+      - href: sobre.qmd
+        text: Sobre / About
+      - href: projetos.qmd
+        text: Projetos / Projects
+      - href: curriculo.qmd
+        text: Curriculos / CV
+      - href: contato.qmd
+        text: Contato / Contact
+    right:
+      - icon: github
+        href: https://github.com/luizalucio
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://linkedin.com/in/luizahplucio
+        aria-label: LinkedIn
 
   page-footer:
     center: |
-     This site was made with ❤️ using [RStudio](https://posit.co) and [Quarto](https://quarto.org).
+      Feito com ❤️ usando [Quarto](https://quarto.org) · Made with ❤️ using [Quarto](https://quarto.org)
+
+  open-graph: true
+  twitter-card: true
 
 format:
   html:
-    theme: flatly
-    toc: true
+    theme:
+      - flatly
+      - styles.scss
+    toc: false
     smooth-scroll: true
-    css: styles.css
-   
-
-
-    
-  
+    code-fold: true
+    lang: pt-BR

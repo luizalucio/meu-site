@@ -1,10 +1,52 @@
 ---
-title: "Meus Projetos"
+title: "Projetos & Participações"
+subtitle: "Projects & Events"
 listing:
-  type: table
-  contents: "projetos/*.qmd"
+  - id: projetos-praticos
+    contents: "projetos/*.qmd"
+    type: grid
+    sort: "date desc"
+    categories: true
+    fields: [image, date, title, description, categories]
+    filter-ui: true
+    sort-ui: true
+    grid-columns: 2
+    image-height: 200px
+    include:
+      categories: ["Projeto Prático", "Projeto em Andamento", "EDA", "Dashboard", "Python", "R", "UFLA", "FAPEMIG", "ZettaLab"]
+  - id: participacoes
+    contents: "projetos/*.qmd"
+    type: grid
+    sort: "date desc"
+    fields: [image, date, title, description, categories]
+    grid-columns: 2
+    image-height: 180px
+    include:
+      categories: ["Comunidade", "Participação", "Mulheres na Tecnologia", "STEM"]
 ---
 
-Nesta seção você encontrará uma seleção dos projetos que venho desenvolvendo ao longo da minha formação em Estatística, com foco em R, Python, análise de dados, dashboards interativos e visualizações informativas. Cada projeto é uma etapa do meu aprendizado e da minha atuação prática em dados.
- 
+::: {.bilingual-note}
+🇧🇷 Português | 🇬🇧 English version below
+:::
 
+Aqui você encontra os projetos que desenvolvi ao longo da minha formação em Estatística na UFLA e as comunidades das quais faço parte ativamente.
+
+Entre os projetos práticos, estão uma análise exploratória de queimadas no Brasil com dados abertos do INPE (com relatório no RPubs e dashboard interativo), um sistema de controle financeiro em Python desenvolvido na disciplina de Fundamentos de Programação, e o Desafio 2 do ZettaLab. Atuo também como bolsista FAPEMIG no projeto CD na Escola, iniciativa educacional que aproxima estudantes do ensino básico da ciência de dados, inspirada na trajetória de Florence Nightingale.
+
+Na seção de participações, você encontra meu envolvimento com o PyLadies Lavras, grupo local da comunidade internacional PyLadies, onde sou membra ativa e responsável pelas redes sociais, promovendo eventos sobre tecnologia e inclusão em Lavras, MG.
+
+---
+
+Here you'll find projects developed throughout my Statistics degree at UFLA and the communities I actively participate in — including an exploratory analysis of wildfires in Brazil, a Python financial system, the ZettaLab Challenge 2, the CD na Escola educational project (FAPEMIG scholarship), and my involvement with PyLadies Lavras.
+
+---
+
+## Projetos Práticos {.mt-section}
+
+::: {#projetos-praticos}
+:::
+
+## Participações & Comunidade {.mt-section}
+
+::: {#participacoes}
+:::

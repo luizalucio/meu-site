@@ -1,26 +1,60 @@
 ---
-title: "Bem-vindo(a)!"
+title: "Luíza Helena Pereira Lúcio"
 toc: false
+page-layout: full
 about: 
   template: jolla
+  image: contorno-foto.png
   image-shape: round
   image-width: 17em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/luizahplucio/
+    - icon: github
+      text: GitHub
+      href: https://github.com/luizalucio
+    - icon: envelope
+      text: Contato
+      href: mailto:luciohluiza@gmail.com
 ---
 
-![](contorno-foto.png){width=150px style="border-radius: 50%; margin-bottom: 1rem;"}
+---
 
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+## Estatística & Ciência de Dados
 
-<div class="lang pt">
-## Olá, eu sou a Luíza Helena!
+Atuo na análise e comunicação de dados, utilizando R, Python e técnicas de visualização e storytelling, com foco na interpretação e no apoio à tomada de decisão. Atualmente, desenvolvo pesquisas aplicadas como Bolsista da FAPEMIG na Universidade Federal de Lavras.
 
-Atualmente sou estudante de Estatística e esse site é o meu portifólio. Desenvolvido inteiramente por mim e aqui compartilho meus projetos, aprendizados e experiências.
-
-Navegue para conhecer mais sobre mim!
+<div style="display:flex; gap:0.75rem; justify-content:center; flex-wrap:wrap; margin-top:1.5rem;">
+<a href="projetos.qmd" class="btn btn-primary btn-lg">Ver Projetos</a>
+<a href="sobre.qmd" class="btn btn-primary btn-lg">Sobre Mim</a>
 </div>
 
-<div class="lang en" style="display:none;">
-## Hi, I'm Luíza Helena!
-I'm currently a Statistics student, and this website is my portfolio. Developed entirely by me, I share my projects, learnings and experiences here.
-</div>
+<div style="height:1.5rem;"></div>
 
+---
+
+::: {.grid .cards-grid}
+
+::: {.g-col-12 .g-col-md-4 .card-item}
+### Projetos
+Análises estatísticas, dashboards dinâmicos e visualizações de dados avançadas.
+
+[Explorar →](projetos.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-4 .card-item}
+### Formação
+Graduanda em Estatística pela Universidade Federal de Lavras (UFLA) e em Gestão Financeira pelo Grupo Unis, com foco em Análise de Dados.
+
+[Conhecer →](sobre.qmd)
+:::
+
+::: {.g-col-12 .g-col-md-4 .card-item}
+### Comunidade
+Membro da PyLadies Lavras, atuando na inclusão de mulheres na tecnologia.
+
+[Conectar →](contato.qmd)
+:::
+
+:::

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Meus Projetos – Luíza Helena Pereira Lúcio</title>
+<title>Projetos &amp; Participações – Luíza Helena Pereira Lúcio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -33,20 +34,21 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-706fc0cd90920ad785d62bb01b6563cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -55,36 +57,64 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-projetos-praticos .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-projetos-praticos'] = new List('listing-projetos-praticos', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-participacoes .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-participacoes'] = new List('listing-participacoes', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -113,7 +143,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -129,25 +159,85 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Projetos &amp; Participações – Luíza Helena Pereira Lúcio">
+<meta property="og:description" content="Projects &amp; Events">
+<meta property="og:image" content="./images/proj-fundamentos.png">
+<meta property="og:site_name" content="Luíza Helena Pereira Lúcio">
+<meta name="twitter:title" content="Projetos &amp; Participações – Luíza Helena Pereira Lúcio">
+<meta name="twitter:description" content="Projects &amp; Events">
+<meta name="twitter:image" content="./images/proj-fundamentos.png">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Luíza Helena Pereira Lúcio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Início / Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sobre.html"> 
+<span class="menu-text">Sobre / About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./projetos.html" aria-current="page"> 
+<span class="menu-text">Projetos / Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./curriculo.html"> 
+<span class="menu-text">Curriculos / CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contato.html"> 
+<span class="menu-text">Contato / Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/luizalucio"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/luizahplucio"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todos <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Q29tdW5pZGFkZQ==">Comunidade <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RGFzaGJvYXJk">Dashboard <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RURB">EDA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWR1Y2ElQzMlQTclQzMlQTNv">Educação <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RkFQRU1JRw==">FAPEMIG <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TXVsaGVyZXMlMjBuYSUyMFRlY25vbG9naWE=">Mulheres na Tecnologia <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UGFydGljaXBhJUMzJUE3JUMzJUEzbw==">Participação <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UHJvamV0byUyMGVtJTIwQW5kYW1lbnRv">Projeto em Andamento <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJvamV0byUyMFByJUMzJUExdGljbw==">Projeto Prático <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U1RFTQ==">STEM <span class="quarto-category-count">(2)</span></div><div class="category" data-category="VUZMQQ==">UFLA <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Meus Projetos</h1>
+<h1 class="title">Projetos &amp; Participações</h1>
+<p class="subtitle lead">Projects &amp; Events</p>
 </div>
 
 
@@ -164,71 +254,224 @@ window.Quarto = {
 </header>
 
 
-<p>Nesta seção você encontrará uma seleção dos projetos que venho desenvolvendo ao longo da minha formação em Estatística, com foco em R, Python, análise de dados, dashboards interativos e visualizações informativas. Cada projeto é uma etapa do meu aprendizado e da minha atuação prática em dados.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="bilingual-note">
+<p>🇧🇷 Português | 🇬🇧 English version below</p>
+</div>
+<p>Aqui você encontra os projetos que desenvolvi ao longo da minha formação em Estatística na UFLA e as comunidades das quais faço parte ativamente.</p>
+<p>Entre os projetos práticos, estão uma análise exploratória de queimadas no Brasil com dados abertos do INPE (com relatório no RPubs e dashboard interativo), um sistema de controle financeiro em Python desenvolvido na disciplina de Fundamentos de Programação, e o Desafio 2 do ZettaLab. Atuo também como bolsista FAPEMIG no projeto CD na Escola, iniciativa educacional que aproxima estudantes do ensino básico da ciência de dados, inspirada na trajetória de Florence Nightingale.</p>
+<p>Na seção de participações, você encontra meu envolvimento com o PyLadies Lavras, grupo local da comunidade internacional PyLadies, onde sou membra ativa e responsável pelas redes sociais, promovendo eventos sobre tecnologia e inclusão em Lavras, MG.</p>
+<hr>
+<p>Here you’ll find projects developed throughout my Statistics degree at UFLA and the communities I actively participate in — including an exploratory analysis of wildfires in Brazil, a Python financial system, the ZettaLab Challenge 2, the CD na Escola educational project (FAPEMIG scholarship), and my involvement with PyLadies Lavras.</p>
+<hr>
+<section id="projetos-práticos" class="level2 mt-section">
+<h2 class="mt-section anchored" data-anchor-id="projetos-práticos">Projetos Práticos</h2>
+<div id="listing-projetos-praticos" class="quarto-listing quarto-listing-container-grid">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
+    <select id="listing-projetos-praticos-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-projetos-praticos'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Ordenar por</option>
+      <option value="index" data-direction="asc">Padrão</option>
+      <option value="listing-title" data-direction="asc">
+        Título
       </option>
-      <option value="listing-author" data-direction="asc">
-        Author
+      <option value="listing-date-sort" data-direction="asc">
+        Data - Mais antigo
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Data - O mais novo
       </option>
     </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
+      <input type="text" class="search form-control" placeholder="Filtro">
     </div>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="UHl0aG9uJTJDUHJvamV0byUyMFByJUMzJUExdGljbyUyQ1VGTEE=" data-listing-date-sort="1769914800000" data-listing-file-modified-sort="1771812799115" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+<a href="./projetos/fundamentos-de-programacao.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/proj-fundamentos.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sistema de Controle Financeiro Empresarial
+</h5>
+<div class="listing-categories">
 
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
 
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
-</th>
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvamV0byUyMFByJUMzJUExdGljbw=='); return false;">Projeto Prático</div>
 
-</tr>
-</thead>
-<tbody class="list">
+<div class="listing-category" onclick="window.quartoListingCategory('VUZMQQ=='); return false;">UFLA</div>
 
-<tr data-index="0" data-listing-file-modified-sort="1750180381733" data-listing-reading-time-sort="9" data-listing-word-count-sort="1779" data-listing-title-sort="Explorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados" data-listing-filename-sort="relatorio-queimadas.qmd">
-<td>
-<a href="./projetos/relatorio-queimadas.html" class="title listing-title">Explorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados</a>
-</td>
-<td>
-<span class="listing-author">Luíza Helena Pereira Lúcio</span>
-</td>
+</div>
+<div class="card-text listing-description delink">
+<p>Sistema em Python com menu interativo para controle de receitas, despesas e salários. Desenvolvido para a disciplina Fundamentos de Programação (GES135) — UFLA, fev/2026.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 de fev. de 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UHJvamV0byUyMGVtJTIwQW5kYW1lbnRvJTJDRWR1Y2ElQzMlQTclQzMlQTNvJTJDUXVhcnRvJTJDRkFQRU1JRyUyQ1VGTEE=" data-listing-date-sort="1754017200000" data-listing-file-modified-sort="1771815356475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="206">
+<a href="./projetos/cdnaescola.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projetos/mgest.JPG" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+CD na Escola
+</h5>
+<div class="listing-categories">
 
-</tr>
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvamV0byUyMGVtJTIwQW5kYW1lbnRv'); return false;">Projeto em Andamento</div>
 
-<tr data-index="1" data-listing-file-modified-sort="1750703959926" data-listing-reading-time-sort="6" data-listing-word-count-sort="1098" data-listing-title-sort="ㅤㅤFocos de queimadas e incêndios" data-listing-filename-sort="meu-dashboard.qmd">
-<td>
-<a href="./projetos/meu-dashboard.html" class="title listing-title">ㅤㅤFocos de queimadas e incêndios</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
+<div class="listing-category" onclick="window.quartoListingCategory('RWR1Y2ElQzMlQTclQzMlQTNv'); return false;">Educação</div>
 
-</tr>
+<div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
 
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+<div class="listing-category" onclick="window.quartoListingCategory('RkFQRU1JRw=='); return false;">FAPEMIG</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VUZMQQ=='); return false;">UFLA</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Projeto educacional que aproxima estudantes do pensamento estatístico e da ciência de dados de forma acessível. Bolsista FAPEMIG — UFLA. Inspirado na trajetória de Florence…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 de ago. de 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="UiUyQ0VEQSUyQ0Rhc2hib2FyZCUyQ1Byb2pldG8lMjBQciVDMyVBMXRpY28lMkNVRkxB" data-listing-date-sort="1746068400000" data-listing-file-modified-sort="1771814707589" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="151">
+<a href="./projetos/analise-queimadas.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/proj-queimadas.png" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Análise de Queimadas no Brasil — Maio 2025
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RURB'); return false;">EDA</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGFzaGJvYXJk'); return false;">Dashboard</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvamV0byUyMFByJUMzJUExdGljbw=='); return false;">Projeto Prático</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VUZMQQ=='); return false;">UFLA</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Análise exploratória de focos de queimadas no Brasil (maio/2025) com relatório estatístico, visualizações interativas e dashboard. Dados: INPE. Disciplina GES109 — UFLA.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 de mai. de 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Q29tdW5pZGFkZSUyQ1BhcnRpY2lwYSVDMyVBNyVDMyVBM28lMkNNdWxoZXJlcyUyMG5hJTIwVGVjbm9sb2dpYSUyQ1B5dGhvbiUyQ1NURU0=" data-listing-date-sort="1735700400000" data-listing-file-modified-sort="1771814940670" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
+<a href="./projetos/pyladies.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projetos/pyladiesgrupo.jpg" class="thumbnail-image card-img" style="height: 200px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+PyLadies Lavras
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tdW5pZGFkZQ=='); return false;">Comunidade</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGFydGljaXBhJUMzJUE3JUMzJUEzbw=='); return false;">Participação</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TXVsaGVyZXMlMjBuYSUyMFRlY25vbG9naWE='); return false;">Mulheres na Tecnologia</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U1RFTQ=='); return false;">STEM</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Membra ativa do PyLadies Lavras — grupo local da comunidade internacional PyLadies, dedicado a promover eventos sobre tecnologia e inclusão. Responsável pelas redes sociais…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 de jan. de 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">Sem itens correspondentes</div>
+</div>
+</section>
+<section id="participações-comunidade" class="level2 mt-section">
+<h2 class="mt-section anchored" data-anchor-id="participações-comunidade">Participações &amp; Comunidade</h2>
+<div id="listing-participacoes" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Q29tdW5pZGFkZSUyQ1BhcnRpY2lwYSVDMyVBNyVDMyVBM28lMkNNdWxoZXJlcyUyMG5hJTIwVGVjbm9sb2dpYSUyQ1B5dGhvbiUyQ1NURU0=" data-listing-date-sort="1735700400000" data-listing-file-modified-sort="1771814940670" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
+<a href="./projetos/pyladies.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projetos/pyladiesgrupo.jpg" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+PyLadies Lavras
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tdW5pZGFkZQ=='); return false;">Comunidade</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGFydGljaXBhJUMzJUE3JUMzJUEzbw=='); return false;">Participação</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TXVsaGVyZXMlMjBuYSUyMFRlY25vbG9naWE='); return false;">Mulheres na Tecnologia</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U1RFTQ=='); return false;">STEM</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Membra ativa do PyLadies Lavras — grupo local da comunidade internacional PyLadies, dedicado a promover eventos sobre tecnologia e inclusão. Responsável pelas redes sociais…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 de jan. de 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">Sem itens correspondentes</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -254,12 +497,12 @@ window.Quarto = {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiada");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiada");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -280,13 +523,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -629,6 +873,19 @@ window.Quarto = {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Feito com ❤️ usando <a href="https://quarto.org">Quarto</a> · Made with ❤️ using <a href="https://quarto.org">Quarto</a></p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

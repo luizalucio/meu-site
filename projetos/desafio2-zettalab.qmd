@@ -1,0 +1,29 @@
+---
+title: "Desafio 2 — ZettaLab"
+subtitle: "Em andamento · ZettaLab"
+description: "Projeto desenvolvido para o Desafio 2 do ZettaLab. Repositório disponível no GitHub."
+date: "2026-02-05"
+categories: [Projeto Prático, ZettaLab]
+image: ../images/proj-zettalab.png
+draft: true
+---
+
+::: {.bilingual-note}
+🇧🇷 Português | 🇬🇧 English version below
+:::
+
+## Sobre o Projeto
+
+Projeto desenvolvido para o Desafio 2 do ZettaLab. 
+
+### Links
+
+- [Repositório — GitHub](https://github.com/luizalucio/desafio2-zettalab)
+
+---
+
+## About (English)
+
+Project developed for ZettaLab Challenge 2. 
+
+- [GitHub Repository](https://github.com/luizalucio/desafio2-zettalab)

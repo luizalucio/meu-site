@@ -1,0 +1,48 @@
+---
+title: "Análise de Queimadas no Brasil — Maio 2025"
+subtitle: "EDA · Dashboard · R · INPE"
+description: "Análise exploratória de focos de queimadas no Brasil (maio/2025) com relatório estatístico, visualizações interativas e dashboard. Dados: INPE. Disciplina GES109 — UFLA."
+date: "2025-05-01"
+categories: [R, EDA, Dashboard, Projeto Prático, UFLA]
+image: ../images/proj-queimadas.png
+---
+
+::: {.bilingual-note}
+🇧🇷 Português | 🇬🇧 English version below
+:::
+
+## Sobre o Projeto
+
+Análise exploratória desenvolvida na disciplina Organização e Apresentação de Dados (GES109) - UFLA. Investigou padrões de queimadas no Brasil em maio de 2025 usando dados abertos do INPE, com foco em distribuição por bioma, relação entre seca e risco de fogo, e dimensão geográfica por estado.
+
+Principais achados: Minas Gerais lidera em dias sem chuva · Mata Atlântica, Cerrado e Caatinga concentram mais focos · Nordeste tem maior risco médio de fogo · relação positiva clara entre seca e risco de incêndio.
+
+::: {.tech-tag}
+R
+:::
+::: {.tech-tag}
+ggplot2
+:::
+::: {.tech-tag}
+plotly
+:::
+::: {.tech-tag}
+geobr
+:::
+::: {.tech-tag}
+Quarto Dashboard
+:::
+
+### Links
+
+- [Relatório completo — RPubs](https://rpubs.com/luizalucio/explorando-focos-de-queimadas-e-incendios-no-br)
+- [Código-fonte — GitHub](https://github.com/luizalucio/analise-queimadas)
+
+---
+
+## About this Project *(English)*
+
+Exploratory data analysis developed for the Data Organization and Presentation (GES109) course at UFLA. Investigated wildfire patterns in Brazil during May 2025 using open data from INPE, covering biome distribution, drought-fire risk relationship, and geographic patterns by state.
+
+- [Full Report — RPubs](https://rpubs.com/luizalucio/explorando-focos-de-queimadas-e-incendios-no-br)
+- [Source Code — GitHub](https://github.com/luizalucio/analise-queimadas)

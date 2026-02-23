@@ -1,31 +1,80 @@
 [
   {
-    "objectID": "projetos.html",
-    "href": "projetos.html",
-    "title": "Meus Projetos",
+    "objectID": "sobre.html",
+    "href": "sobre.html",
+    "title": "Sobre Mim",
     "section": "",
-    "text": "Nesta seção você encontrará uma seleção dos projetos que venho desenvolvendo ao longo da minha formação em Estatística, com foco em R, Python, análise de dados, dashboards interativos e visualizações informativas. Cada projeto é uma etapa do meu aprendizado e da minha atuação prática em dados.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nExplorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados\n\n\nLuíza Helena Pereira Lúcio\n\n\n\n\n\n\nㅤㅤFocos de queimadas e incêndios\n\n\n \n\n\n\n\n\n\nNo matching items"
+    "text": "Olá! Eu sou a Luíza Helena, estudante de Estatística pela Universidade Federal de Lavras (UFLA) e de Gestão Financeira pelo Grupo UNIS. Minha trajetória acadêmica é guiada pelo interesse em unir o rigor da estatística aplicada à visão estratégica de negócios, buscando transformar dados em informações que apoiem decisões mais conscientes e fundamentadas.\nAo longo da graduação, venho construindo uma base sólida em análise de dados, estatística descritiva e programação, com especial interesse em visualização de dados e comunicação de resultados. Acredito que dados só geram impacto quando são bem interpretados e apresentados de forma clara, acessível e contextualizada. Além disso, valorizo a aplicação do conhecimento acadêmico em iniciativas que promovam a melhoria e a transformação social, buscando sempre devolver à sociedade, por meio de projetos e ações coletivas, o aprendizado construído ao longo da minha formação.\n\n\nAtualmente, sou bolsista da FAPEMIG, atuando em um projeto de pesquisa na área de ciência de dados aplicada à educação. No contexto da bolsa, desenvolvo habilidades relacionadas à análise de dados reais, resolução de problemas e organização de informações, além de aprimorar minha capacidade de comunicar resultados por meio de visualizações e materiais analíticos. Essa experiência tem fortalecido minha visão crítica sobre dados e ampliado meu entendimento sobre o papel dos dados em diferentes contextos.\n\n\n\nAcredito que a tecnologia deve ser acessível, diversa e construída de forma coletiva. Por isso, participo ativamente do Pyladies Lavras, iniciativa que promove a inclusão de mulheres na tecnologia. Nesse espaço, colaboro com ações voltadas à disseminação do conhecimento em programação e ciência de dados, reforçando meu compromisso com a divulgação científica e com a construção de ambientes mais diversos e acolhedores no ecossistema tech."
   },
   {
-    "objectID": "historia.html",
-    "href": "historia.html",
-    "title": "Linha do Tempo",
+    "objectID": "sobre.html#minha-trajetória",
+    "href": "sobre.html#minha-trajetória",
+    "title": "Sobre Mim",
     "section": "",
-    "text": "Conteúdo em breve…\nEstou preparando algo especial para esta seção :)"
+    "text": "Olá! Eu sou a Luíza Helena, estudante de Estatística pela Universidade Federal de Lavras (UFLA) e de Gestão Financeira pelo Grupo UNIS. Minha trajetória acadêmica é guiada pelo interesse em unir o rigor da estatística aplicada à visão estratégica de negócios, buscando transformar dados em informações que apoiem decisões mais conscientes e fundamentadas.\nAo longo da graduação, venho construindo uma base sólida em análise de dados, estatística descritiva e programação, com especial interesse em visualização de dados e comunicação de resultados. Acredito que dados só geram impacto quando são bem interpretados e apresentados de forma clara, acessível e contextualizada. Além disso, valorizo a aplicação do conhecimento acadêmico em iniciativas que promovam a melhoria e a transformação social, buscando sempre devolver à sociedade, por meio de projetos e ações coletivas, o aprendizado construído ao longo da minha formação.\n\n\nAtualmente, sou bolsista da FAPEMIG, atuando em um projeto de pesquisa na área de ciência de dados aplicada à educação. No contexto da bolsa, desenvolvo habilidades relacionadas à análise de dados reais, resolução de problemas e organização de informações, além de aprimorar minha capacidade de comunicar resultados por meio de visualizações e materiais analíticos. Essa experiência tem fortalecido minha visão crítica sobre dados e ampliado meu entendimento sobre o papel dos dados em diferentes contextos.\n\n\n\nAcredito que a tecnologia deve ser acessível, diversa e construída de forma coletiva. Por isso, participo ativamente do Pyladies Lavras, iniciativa que promove a inclusão de mulheres na tecnologia. Nesse espaço, colaboro com ações voltadas à disseminação do conhecimento em programação e ciência de dados, reforçando meu compromisso com a divulgação científica e com a construção de ambientes mais diversos e acolhedores no ecossistema tech."
   },
   {
-    "objectID": "contato.html",
-    "href": "contato.html",
-    "title": "Contato",
-    "section": "",
-    "text": "&lt;div class=\"language-toggle\"&gt;\n  &lt;button onclick=\"setLanguage('pt')\"&gt;🇧🇷 Português&lt;/button&gt;\n  &lt;button onclick=\"setLanguage('en')\"&gt;🇺🇸 English&lt;/button&gt;\n&lt;/div&gt;\nFique à vontade para entrar em contato! Estou aberta a colaborações, projetos, dúvidas sobre meus trabalhos ou apenas uma boa conversa sobre dados, arte e tecnologia.\nVocê pode me achar aqui:"
+    "objectID": "sobre.html#hard-skills",
+    "href": "sobre.html#hard-skills",
+    "title": "Sobre Mim",
+    "section": "Hard Skills",
+    "text": "Hard Skills\n\n\n\n\n\n\n\nCategoria\nCompetências\n\n\n\n\nLinguagens\nR, Python, SQL (básico)\n\n\nFerramentas\nQuarto, RStudio, Git/GitHub, Dashboards\n\n\nEstatística\nAnálise Descritiva, Visualização (ggplot2, matplotlib), Machine Learning (em aprendizado)"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "sobre.html#idiomas",
+    "href": "sobre.html#idiomas",
+    "title": "Sobre Mim",
+    "section": "Idiomas",
+    "text": "Idiomas\nSou apaixonada por línguas e pela comunicação global. Estudo idiomas não apenas como ferramenta profissional, mas também por interesse pessoal, curiosidade cultural e pelo prazer de compreender diferentes formas de expressão e pensamento.\n\nPortuguês (Nativo)\nInglês (Fluente)\nFrancês (Intermediário)\nItaliano (Conhecimentos básicos)"
+  },
+  {
+    "objectID": "projetos/pyladies.html",
+    "href": "projetos/pyladies.html",
+    "title": "PyLadies Lavras",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "🇧🇷 Português | 🇬🇧 English version below"
+  },
+  {
+    "objectID": "projetos/pyladies.html#sobre-o-grupo",
+    "href": "projetos/pyladies.html#sobre-o-grupo",
+    "title": "PyLadies Lavras",
+    "section": "Sobre o Grupo",
+    "text": "Sobre o Grupo\nO PyLadies é uma comunidade internacional que apoia mulheres e pessoas de grupos sub-representados que têm interesse em programação e tecnologia, especialmente em Python. O capítulo de Lavras, MG é um grupo pequeno, cheio de energia e com muita vontade de crescer, e esperamos receber cada vez mais pessoas que queiram aprender, trocar experiências e se sentir acolhidas na área de tecnologia.\nNossos encontros e eventos giram em torno de programação, dados, inclusão e abertura de portas para quem está começando. Se você está em Lavras e tem curiosidade por tecnologia, venha junto!"
+  },
+  {
+    "objectID": "projetos/pyladies.html#minha-atuação",
+    "href": "projetos/pyladies.html#minha-atuação",
+    "title": "PyLadies Lavras",
+    "section": "Minha atuação",
+    "text": "Minha atuação\nComo membra ativa, participo da organização de eventos e sou responsável pelas redes sociais do grupo, cuido da comunicação, criação de conteúdo e divulgação das nossas iniciativas.\n\nLinks\n\nInstagram @pyladieslavras"
+  },
+  {
+    "objectID": "projetos/pyladies.html#about-english",
+    "href": "projetos/pyladies.html#about-english",
+    "title": "PyLadies Lavras",
+    "section": "About (English)",
+    "text": "About (English)\nPyLadies is an international community supporting women and underrepresented groups interested in programming and technology, especially Python. The Lavras, MG chapter is a small but energetic group, eager to grow and welcome more people who want to learn and feel at home in tech.\nAs an active member, I help organize events and manage the group’s social media, handling communication, content creation, and outreach.\n\nInstagram @pyladieslavras"
+  },
+  {
+    "objectID": "projetos/analise-queimadas.html",
+    "href": "projetos/analise-queimadas.html",
+    "title": "Análise de Queimadas no Brasil — Maio 2025",
+    "section": "",
+    "text": "🇧🇷 Português | 🇬🇧 English version below"
+  },
+  {
+    "objectID": "projetos/analise-queimadas.html#sobre-o-projeto",
+    "href": "projetos/analise-queimadas.html#sobre-o-projeto",
+    "title": "Análise de Queimadas no Brasil — Maio 2025",
+    "section": "Sobre o Projeto",
+    "text": "Sobre o Projeto\nAnálise exploratória desenvolvida na disciplina Organização e Apresentação de Dados (GES109) - UFLA. Investigou padrões de queimadas no Brasil em maio de 2025 usando dados abertos do INPE, com foco em distribuição por bioma, relação entre seca e risco de fogo, e dimensão geográfica por estado.\nPrincipais achados: Minas Gerais lidera em dias sem chuva · Mata Atlântica, Cerrado e Caatinga concentram mais focos · Nordeste tem maior risco médio de fogo · relação positiva clara entre seca e risco de incêndio.\n\nR\n\n\nggplot2\n\n\nplotly\n\n\ngeobr\n\n\nQuarto Dashboard\n\n\nLinks\n\nRelatório completo — RPubs\nCódigo-fonte — GitHub"
+  },
+  {
+    "objectID": "projetos/analise-queimadas.html#about-this-project-english",
+    "href": "projetos/analise-queimadas.html#about-this-project-english",
+    "title": "Análise de Queimadas no Brasil — Maio 2025",
+    "section": "About this Project (English)",
+    "text": "About this Project (English)\nExploratory data analysis developed for the Data Organization and Presentation (GES109) course at UFLA. Investigated wildfire patterns in Brazil during May 2025 using open data from INPE, covering biome distribution, drought-fire risk relationship, and geographic patterns by state.\n\nFull Report — RPubs\nSource Code — GitHub"
   },
   {
     "objectID": "curriculo.html",
@@ -49,66 +98,80 @@
     "text": "Curriculum Vitae - English\nDownload PDF"
   },
   {
-    "objectID": "eventos.html",
-    "href": "eventos.html",
-    "title": "Eventos (Events)",
+    "objectID": "contato.html",
+    "href": "contato.html",
+    "title": "Contato",
     "section": "",
-    "text": "Conteúdo em breve…\nEstou preparando algo especial para esta seção :)"
+    "text": "Fique à vontade para entrar em contato! Estou aberta a colaborações, projetos, dúvidas sobre meus trabalhos ou apenas uma boa conversa sobre dados, arte e tecnologia.\nVocê pode me achar aqui:"
   },
   {
-    "objectID": "index.html#olá-eu-sou-a-luíza-helena",
-    "href": "index.html#olá-eu-sou-a-luíza-helena",
-    "title": "Bem-vindo(a)!",
-    "section": "Olá, eu sou a Luíza Helena!",
-    "text": "Olá, eu sou a Luíza Helena!\nAtualmente sou estudante de Estatística e esse site é o meu portifólio. Desenvolvido inteiramente por mim e aqui compartilho meus projetos, aprendizados e experiências.\nNavegue para conhecer mais sobre mim!"
+    "objectID": "index.html#estatística-ciência-de-dados",
+    "href": "index.html#estatística-ciência-de-dados",
+    "title": "Luíza Helena Pereira Lúcio",
+    "section": "Estatística & Ciência de Dados",
+    "text": "Estatística & Ciência de Dados\nAtuo na análise e comunicação de dados, utilizando R, Python e técnicas de visualização e storytelling, com foco na interpretação e no apoio à tomada de decisão. Atualmente, desenvolvo pesquisas aplicadas como Bolsista da FAPEMIG na Universidade Federal de Lavras.\n\nVer Projetos Sobre Mim\n\n\n\n\n\n\nProjetos\nAnálises estatísticas, dashboards dinâmicos e visualizações de dados avançadas.\nExplorar →\n\n\nFormação\nGraduanda em Estatística pela Universidade Federal de Lavras (UFLA) e em Gestão Financeira pelo Grupo Unis, com foco em Análise de Dados.\nConhecer →\n\n\nComunidade\nMembro da PyLadies Lavras, atuando na inclusão de mulheres na tecnologia.\nConectar →"
   },
   {
-    "objectID": "index.html#hi-im-luíza-helena",
-    "href": "index.html#hi-im-luíza-helena",
-    "title": "Bem-vindo(a)!",
-    "section": "Hi, I’m Luíza Helena!",
-    "text": "Hi, I’m Luíza Helena!\nI’m currently a Statistics student, and this website is my portfolio. Developed entirely by me, I share my projects, learnings and experiences here."
-  },
-  {
-    "objectID": "projetos/relatorio-queimadas.html",
-    "href": "projetos/relatorio-queimadas.html",
-    "title": "Explorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados",
+    "objectID": "projetos/cdnaescola.html",
+    "href": "projetos/cdnaescola.html",
+    "title": "CD na Escola",
     "section": "",
-    "text": "Esta análise exploratória de dados tem como objetivo investigar os focos de queimadas e incêndios no Brasil durante o mês de maio de 2025. O trabalho foi desenvolvido como parte do meu processo de aprendizagem no curso de Estatística da Universidade Federal de Lavras, na disciplina de Organização e Apresentação de Dados (GES109).\n\n\n\n\nO público-alvo dessa análise é a sociedade em geral, com ênfase especial nos brasileiros, visto que o foco dos dados é o território nacional. A ideia é informar tanto o público leigo quanto profissionais e tomadores de decisão interessados em entender os padrões e riscos relacionados as queimadas no Brasil.\n\n\nAo explorar esse conjunto de dados, levantei diversos questionamentos sobre as relações entre variáveis, a existência de regiões com maior risco de incêndios e a relação com outros fatores. Ao longo deste relatório, apresentarei uma série de respostas para essas perguntas e outras, que serão discutidas com base na análise realizada.\n\n\n\n\n\nEste conjunto de dados é uma fonte primária, ou seja fornece informações originais, coletadas diretamente por quem realizou a medição. Nesse caso, os dados foram obtidos no portal de dados abertos do Programa Queimadas do Instituto Nacional de Pesquisas Espaciais (INPE). A coleta foi realizada no dia 26/05, a partir do conjunto nomeado Focos de Queimadas e Incêndios, no formato CSV e referente a base do mês de maio que contempla toda a América Latina.\n\n\n\n\n\nNesta base de dados, temos 131.180 observações e 16 variáveis de três tipos. As variáveis do tipo chr (character) correspondem a variáveis categóricas nominais, pois representam categorias sem uma ordem natural. As do tipo double (dbl) são variáveis quantitativas contínuas, utilizadas para representar números reais, podendo conter casas decimais, enquanto as do tipo integer (int), que também são quantitativas, mas discretas, assumem apenas valores inteiros. Há ainda uma variável do tipo date, que é temporal, utilizada para representar datas no formato ano-mês-dia, permitindo análises ao longo do tempo.\n\n\nA base original trata da América Latina e o foco dessa EDA é somente no Brasil, então afunilei seguindo essa linha de raciocínio e, no total, trabalhei com 930 observações e 5 variáveis: data, estado, dia sem chuva, risco fogo e bioma."
+    "text": "🇧🇷 Em andamento | 🇬🇧 Work in progress"
   },
   {
-    "objectID": "projetos/relatorio-queimadas.html#introdução",
-    "href": "projetos/relatorio-queimadas.html#introdução",
-    "title": "Explorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados",
+    "objectID": "projetos/cdnaescola.html#sobre-o-projeto",
+    "href": "projetos/cdnaescola.html#sobre-o-projeto",
+    "title": "CD na Escola",
+    "section": "Sobre o Projeto",
+    "text": "Sobre o Projeto\nO Ciência de Dados na Escola (CD na Escola) é um projeto educacional que busca aproximar estudantes do ensino básico do pensamento estatístico e da ciência de dados de forma acessível e contextualizada, sem exigir conhecimentos técnicos avançados.\nO projeto parte da ideia de que dados fazem parte do cotidiano e podem ser usados como ferramenta para desenvolver habilidades como interpretação de informações, raciocínio crítico e tomada de decisão. A iniciativa é inspirada na trajetória de Florence Nightingale, pioneira no uso de visualização de dados para comunicar evidências e transformar realidades.\nComo bolsista FAPEMIG, atuo no desenvolvimento de uma plataforma educacional construída com Quarto, além de produzir conteúdos sobre tecnologia e estatística adaptados ao contexto escolar.\nDetalhes completos em breve, projeto em desenvolvimento,\n\nQuarto\n\n\nEducação de Dados\n\n\nFAPEMIG\n\n\nVisualização"
+  },
+  {
+    "objectID": "projetos/cdnaescola.html#about-english",
+    "href": "projetos/cdnaescola.html#about-english",
+    "title": "CD na Escola",
+    "section": "About (English)",
+    "text": "About (English)\nCD na Escola (Data Science at School) is an educational project that brings statistical thinking and data science to school students in an accessible, contextualized way - inspired by Florence Nightingale’s pioneering use of data visualization to communicate evidence and drive change.\nAs a FAPEMIG scholarship holder, I work on developing an educational platform built with Quarto and producing data and technology content adapted for the school context.\nFull details coming soon."
+  },
+  {
+    "objectID": "projetos/fundamentos-de-programacao.html",
+    "href": "projetos/fundamentos-de-programacao.html",
+    "title": "Sistema de Controle Financeiro Empresarial",
     "section": "",
-    "text": "Esta análise exploratória de dados tem como objetivo investigar os focos de queimadas e incêndios no Brasil durante o mês de maio de 2025. O trabalho foi desenvolvido como parte do meu processo de aprendizagem no curso de Estatística da Universidade Federal de Lavras, na disciplina de Organização e Apresentação de Dados (GES109).\n\n\n\n\nO público-alvo dessa análise é a sociedade em geral, com ênfase especial nos brasileiros, visto que o foco dos dados é o território nacional. A ideia é informar tanto o público leigo quanto profissionais e tomadores de decisão interessados em entender os padrões e riscos relacionados as queimadas no Brasil.\n\n\nAo explorar esse conjunto de dados, levantei diversos questionamentos sobre as relações entre variáveis, a existência de regiões com maior risco de incêndios e a relação com outros fatores. Ao longo deste relatório, apresentarei uma série de respostas para essas perguntas e outras, que serão discutidas com base na análise realizada.\n\n\n\n\n\nEste conjunto de dados é uma fonte primária, ou seja fornece informações originais, coletadas diretamente por quem realizou a medição. Nesse caso, os dados foram obtidos no portal de dados abertos do Programa Queimadas do Instituto Nacional de Pesquisas Espaciais (INPE). A coleta foi realizada no dia 26/05, a partir do conjunto nomeado Focos de Queimadas e Incêndios, no formato CSV e referente a base do mês de maio que contempla toda a América Latina.\n\n\n\n\n\nNesta base de dados, temos 131.180 observações e 16 variáveis de três tipos. As variáveis do tipo chr (character) correspondem a variáveis categóricas nominais, pois representam categorias sem uma ordem natural. As do tipo double (dbl) são variáveis quantitativas contínuas, utilizadas para representar números reais, podendo conter casas decimais, enquanto as do tipo integer (int), que também são quantitativas, mas discretas, assumem apenas valores inteiros. Há ainda uma variável do tipo date, que é temporal, utilizada para representar datas no formato ano-mês-dia, permitindo análises ao longo do tempo.\n\n\nA base original trata da América Latina e o foco dessa EDA é somente no Brasil, então afunilei seguindo essa linha de raciocínio e, no total, trabalhei com 930 observações e 5 variáveis: data, estado, dia sem chuva, risco fogo e bioma."
+    "text": "🇧🇷 Português | 🇬🇧 English version below"
   },
   {
-    "objectID": "projetos/relatorio-queimadas.html#análise-e-visualização-dos-dados",
-    "href": "projetos/relatorio-queimadas.html#análise-e-visualização-dos-dados",
-    "title": "Explorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados",
-    "section": "Análise e Visualização dos Dados",
-    "text": "Análise e Visualização dos Dados\n\nRanking das UFs de dias sem chuva\n\nQual unidade federativa tem a maior mediana de dias sem chuvas?\n\n\n\nTabela 1: Top 5 Estados por Mediana de Dias Sem Chuva\n\n\nEstado\nMediana dos dias sem chuva\n\n\n\n\nMINAS GERAIS\n13,95\n\n\nPERNAMBUCO\n13,19\n\n\nDISTRITO FEDERAL\n12,00\n\n\nGOIÁS\n10,86\n\n\nMATO GROSSO\n10,09\n\n\n\n\n\n\nA Tabela 1 apresenta os cinco estados com as maiores medianas da variável “Dias sem chuvas”, que representa períodos de seca. A mediana foi escolhida como medida de tendência central por ser mais robusta frente a valores extremos e oferecer uma visão mais representativa da distribuição dos dados. Minas Gerais se destaca com a maior mediana entre os estados. Isso significa que para MG 50% das observações registradas apresentam menos de 14 dias sem chuva, enquanto os outros 50% tem valores acima desse número.\n\n\n\n\nAnalisando a Frequência de Focos de Queimadas por Biomas\n\nQuais biomas se destacam? Será que o Cerrado tem mais foco por ser mais seco?\n\n\n\n\n\n\n\nNa Figura 1, são apresentados os focos de queimadas por bioma, por meio de um gráfico de barras horizontal, em que o eixo Y representa os biomas da base de dados e o eixo X indica a quantidade de focos de queimadas. Respondendo as perguntas, é possível observar que os três biomas que mais se destacam são a Mata Atlântica, o Cerrado e a Caatinga.\n\n\n\n\nRelacionando variáveis\n\nExiste uma relação entre o número de dias sem chuva e o aumento do risco de fogo?\n\n\n\n\n\n\n\nNa Figura 2, é apresentado um gráfico de dispersão em que cada ponto representa uma observação com o número de dias sem chuva no eixo X e o risco de fogo no eixo Y. O gráfico sugere que existe uma relação positiva entre as variáveis, pois é possível observar claramente que, conforme o número de dias sem chuva aumenta, o risco de fogo também tende a crescer.\n\n\nNota: Como os dados foram analisados no software R, os números com casas decimais aparecem utilizando o ponto (.) como separador decimal, em vez da vírgula (,). Portanto, um valor como 13.954 deve ser lido como 13,954 dias e não como treze mil.\n\n\n\n\n\n\nDimensão Geográfica\n\nQuais regiões tem mais risco? E quais tem menos?\n\n\n\n\n\n\n\nNa Figura 3, temos um mapa do Brasil que mostra o risco médio de fogo por estado, representado por um gradiente de cores que varia do amarelo claro, indicando menores índices, ao vermelho forte, indicando maiores índices. Analisando o mapa, é possível dizer que a região Nordeste apresenta maior risco médio de fogo por estado, enquanto a região Sul apresenta menor risco."
+    "objectID": "projetos/fundamentos-de-programacao.html#sobre-o-projeto",
+    "href": "projetos/fundamentos-de-programacao.html#sobre-o-projeto",
+    "title": "Sistema de Controle Financeiro Empresarial",
+    "section": "Sobre o Projeto",
+    "text": "Sobre o Projeto\nMiniprojeto desenvolvido na disciplina Fundamentos de Programação (GES135) do curso de Estatística da UFLA. O objetivo foi transformar uma necessidade cotidiana em solução estruturada com Python, passando por todas as etapas: fluxograma, pseudocódigo em Portugol e implementação final.\nA empresa fictícia Scranton Tech Solutions fornece serviços de TI com três planos mensais. O sistema gerencia receitas, despesas e salários com validação de entradas e exibição de extrato.\n\nPython\n\n\nEstruturas de controle\n\n\nFunções\n\n\nListas\n\n\n🔗 Links\n\nCódigo-fonte — GitHub\nDocumento do Projeto (PDF)"
   },
   {
-    "objectID": "projetos/relatorio-queimadas.html#conclusão",
-    "href": "projetos/relatorio-queimadas.html#conclusão",
-    "title": "Explorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados",
-    "section": "Conclusão",
-    "text": "Conclusão\n\nUm dos maiores desafios, nessa análise foi “filtrar” a base de dados, pois é uma base bem grande e com muita coisa interessante, então talvez o limite estabelecido tenha sido um grande desafio. Destaco principalmente a Figura 4 (Mapa de risco médio de fogo por estado), pois, além de demorar a carregar, muitos erros foram encontrados, logo foi o gráfico mais difícil de fazer.\n\n\nNessa análise exploratória, foi possível identificar padrões importantes relacionados aos focos de queimadas e incêndios no Brasil durante o mês de maio de 2025. A mediana de dias sem chuva mostrou que estados como Minas Gerais apresentam períodos longos de seca. A análise dos biomas revelou que Mata Atlântica, Cerrado e Caatinga são os que registram maior número de focos de queimadas. O gráfico de dispersão evidenciou que períodos mais secos tendem a aumentar a probabilidade dos incêndios. Já a dimensão geográfica, representada pelo mapa de risco médio por estado, apontou que a região Nordeste apresenta um risco maior, enquanto a região Sul demonstra menor vulnerabilidade a incêndios.\n\n\nAcredito que foram bons resultados, mas destaco a necessidade de aprofundar as análises, incorporando outras variáveis ambientais, socioeconômicas e políticas para entender melhor os fatores que influenciam a ocorrência das queimadas no Brasil. E também porque essa foi uma análise considerando somente o mês de maio, talvez uma visualização do ano todo seja melhor. Além disso, talvez seja possível usar esses dados para desenvolver estratégias de prevenção ou combate das queimadas e incêndios, visando proteger o meio ambiente, mas também as populações afetadas."
+    "objectID": "projetos/fundamentos-de-programacao.html#about-english",
+    "href": "projetos/fundamentos-de-programacao.html#about-english",
+    "title": "Sistema de Controle Financeiro Empresarial",
+    "section": "About (English)",
+    "text": "About (English)\nMini-project for the Programming Fundamentals (GES135) course at UFLA. Built a Python financial control system for a fictional IT company, covering flowchart design, Portugol pseudocode, and final implementation.\n\nSource Code — GitHub"
   },
   {
-    "objectID": "projetos/relatorio-queimadas.html#referências",
-    "href": "projetos/relatorio-queimadas.html#referências",
-    "title": "Explorando os focos de queimadas e incêndios do Brasil no mês de maio: uma análise baseada em dados",
-    "section": "Referências",
-    "text": "Referências\nInstituto Nacional de Pesquisas Espaciais (INPE). Base de dados sobre queimadas – TerraBrasilis. Disponível em: https://terrabrasilis.dpi.inpe.br/queimadas/portal/dados-abertos/. Acesso em: 26/05/2025.\nWICKHAM, Hadley; GROLEMUND, Garrett. R for Data Science (2ª edição). Disponível em: https://r4ds.hadley.nz/. Acesso em: 28/05/2025.\nQuarto Documentation – Guide. Disponível em: https://quarto.org/docs/guide/. Acesso em: 30/05/2025.\nBUCKERIDGE, Marcos. As várias faces dos incêndios no Brasil. Jornal da USP. Disponível em: https://jornal.usp.br/articulistas/marcos-buckeridge/as-varias-faces-dos-incendios-no-brasil/. Acesso em: 02/06/2025.\nR CORE TEAM. R: A Language and Environment for Statistical Computing. Vienna: R Foundation for Statistical Computing, 2025. Disponível em: https://www.r-project.org/. Acesso em: 02/06/2025.\nWICKHAM, Hadley et al. Welcome to the tidyverse. Journal of Open Source Software, v. 4, n. 43, p. 1686, 2019. doi:10.21105/joss.01686. Disponível em: https://doi.org/10.21105/joss.01686. Acesso em: 02/06/2025.\nGROLEMUND, Garrett; WICKHAM, Hadley. Dates and Times Made Easy with lubridate. Journal of Statistical Software, v. 40, n. 3, p. 1–25, 2011. Disponível em: https://www.jstatsoft.org/v40/i03/. Acesso em: 02/06/2025.\nPEREIRA, Renato; GONÇALVES, Caio. geobr: Download Official Spatial Data Sets of Brazil. R package version 1.9.1, 2024. doi:10.32614/CRAN.package.geobr. Disponível em: https://CRAN.R-project.org/package=geobr. Acesso em: 02/06/2025.\nWICKHAM, Hadley. stringr: Simple, Consistent Wrappers for Common String Operations. R package version 1.5.1, 2023. doi:10.32614/CRAN.package.stringr. Disponível em: https://CRAN.R-project.org/package=stringr. Acesso em: 02/06/2025.\nLENTE, Caio; TRECENTI, Jurandir. abjutils: Useful Tools for Jurimetrical Analysis Used by the Brazilian Jurimetrics Association. R package version 0.3.2, 2022. doi:10.32614/CRAN.package.abjutils. Disponível em: https://CRAN.R-project.org/package=abjutils. Acesso em: 02/06/2025.\nXIE, Yihui. knitr: A General-Purpose Package for Dynamic Report Generation in R. R package version 1.50, 2025. Disponível em: https://yihui.org/knitr/. Acesso em: 02/06/2025."
-  },
-  {
-    "objectID": "sobre.html",
-    "href": "sobre.html",
-    "title": "Sobre mim",
+    "objectID": "projetos.html",
+    "href": "projetos.html",
+    "title": "Projetos & Participações",
     "section": "",
-    "text": "Conteúdo em breve…\nEstou preparando algo especial para esta seção :)"
+    "text": "🇧🇷 Português | 🇬🇧 English version below\nAqui você encontra os projetos que desenvolvi ao longo da minha formação em Estatística na UFLA e as comunidades das quais faço parte ativamente.\nEntre os projetos práticos, estão uma análise exploratória de queimadas no Brasil com dados abertos do INPE (com relatório no RPubs e dashboard interativo), um sistema de controle financeiro em Python desenvolvido na disciplina de Fundamentos de Programação, e o Desafio 2 do ZettaLab. Atuo também como bolsista FAPEMIG no projeto CD na Escola, iniciativa educacional que aproxima estudantes do ensino básico da ciência de dados, inspirada na trajetória de Florence Nightingale.\nNa seção de participações, você encontra meu envolvimento com o PyLadies Lavras, grupo local da comunidade internacional PyLadies, onde sou membra ativa e responsável pelas redes sociais, promovendo eventos sobre tecnologia e inclusão em Lavras, MG.\nHere you’ll find projects developed throughout my Statistics degree at UFLA and the communities I actively participate in — including an exploratory analysis of wildfires in Brazil, a Python financial system, the ZettaLab Challenge 2, the CD na Escola educational project (FAPEMIG scholarship), and my involvement with PyLadies Lavras."
+  },
+  {
+    "objectID": "projetos.html#projetos-práticos",
+    "href": "projetos.html#projetos-práticos",
+    "title": "Projetos & Participações",
+    "section": "Projetos Práticos",
+    "text": "Projetos Práticos\n\n\n   \n    \n    \n      Ordenar por\n      Padrão\n      \n        Título\n      \n      \n        Data - Mais antigo\n      \n      \n        Data - O mais novo\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSistema de Controle Financeiro Empresarial\n\n\n\nPython\n\nProjeto Prático\n\nUFLA\n\n\n\nSistema em Python com menu interativo para controle de receitas, despesas e salários. Desenvolvido para a disciplina Fundamentos de Programação (GES135) — UFLA, fev/2026.\n\n\n\n1 de fev. de 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCD na Escola\n\n\n\nProjeto em Andamento\n\nEducação\n\nQuarto\n\nFAPEMIG\n\nUFLA\n\n\n\nProjeto educacional que aproxima estudantes do pensamento estatístico e da ciência de dados de forma acessível. Bolsista FAPEMIG — UFLA. Inspirado na trajetória de Florence…\n\n\n\n1 de ago. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de Queimadas no Brasil — Maio 2025\n\n\n\nR\n\nEDA\n\nDashboard\n\nProjeto Prático\n\nUFLA\n\n\n\nAnálise exploratória de focos de queimadas no Brasil (maio/2025) com relatório estatístico, visualizações interativas e dashboard. Dados: INPE. Disciplina GES109 — UFLA.\n\n\n\n1 de mai. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPyLadies Lavras\n\n\n\nComunidade\n\nParticipação\n\nMulheres na Tecnologia\n\nPython\n\nSTEM\n\n\n\nMembra ativa do PyLadies Lavras — grupo local da comunidade internacional PyLadies, dedicado a promover eventos sobre tecnologia e inclusão. Responsável pelas redes sociais…\n\n\n\n1 de jan. de 2025\n\n\n\n\n\n\nSem itens correspondentes"
+  },
+  {
+    "objectID": "projetos.html#participações-comunidade",
+    "href": "projetos.html#participações-comunidade",
+    "title": "Projetos & Participações",
+    "section": "Participações & Comunidade",
+    "text": "Participações & Comunidade\n\n\n\n\n\n\n\n\n\n\nPyLadies Lavras\n\n\n\nComunidade\n\nParticipação\n\nMulheres na Tecnologia\n\nPython\n\nSTEM\n\n\n\nMembra ativa do PyLadies Lavras — grupo local da comunidade internacional PyLadies, dedicado a promover eventos sobre tecnologia e inclusão. Responsável pelas redes sociais…\n\n\n\n1 de jan. de 2025\n\n\n\n\n\n\nSem itens correspondentes"
   }
 ]

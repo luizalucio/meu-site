@@ -1,10 +1,49 @@
 ---
-title: "Sobre mim"
+title: "Sobre Mim"
+about:
+  template: trestles 
+  image: contorno-foto.png
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/luizahplucio/
+    - icon: github
+      text: GitHub
+      href: https://github.com/luizalucio
+    - icon: mortarboard
+      text: Lattes
+      href: https://lattes.cnpq.br/8335265944606339
 ---
 
-![](aguarde.png){width="400px" style="display: block; margin: 2rem auto;"}
+## Minha Trajetória
 
-### Conteúdo em breve...
+Olá! Eu sou a Luíza Helena, estudante de Estatística pela Universidade Federal de Lavras (UFLA) e de Gestão Financeira pelo Grupo UNIS. Minha trajetória acadêmica é guiada pelo interesse em unir o rigor da estatística aplicada à visão estratégica de negócios, buscando transformar dados em informações que apoiem decisões mais conscientes e fundamentadas.
 
-Estou preparando algo especial para esta seção :)
+Ao longo da graduação, venho construindo uma base sólida em análise de dados, estatística descritiva e programação, com especial interesse em visualização de dados e comunicação de resultados. Acredito que dados só geram impacto quando são bem interpretados e apresentados de forma clara, acessível e contextualizada. Além disso, valorizo a aplicação do conhecimento acadêmico em iniciativas que promovam a melhoria e a transformação social, buscando sempre devolver à sociedade, por meio de projetos e ações coletivas, o aprendizado construído ao longo da minha formação.
 
+### Atuação Acadêmica e Profissional
+
+Atualmente, sou bolsista da FAPEMIG, atuando em um projeto de pesquisa na área de ciência de dados aplicada à educação. No contexto da bolsa, desenvolvo habilidades relacionadas à análise de dados reais, resolução de problemas e organização de informações, além de aprimorar minha capacidade de comunicar resultados por meio de visualizações e materiais analíticos. Essa experiência tem fortalecido minha visão crítica sobre dados e ampliado meu entendimento sobre o papel dos dados em diferentes contextos.
+
+### Tecnologia e Comunidade
+
+Acredito que a tecnologia deve ser acessível, diversa e construída de forma coletiva. Por isso, participo ativamente do **Pyladies Lavras**, iniciativa que promove a inclusão de mulheres na tecnologia. Nesse espaço, colaboro com ações voltadas à disseminação do conhecimento em programação e ciência de dados, reforçando meu compromisso com a divulgação científica e com a construção de ambientes mais diversos e acolhedores no ecossistema tech.
+
+## Hard Skills
+
+| Categoria | Competências |
+|-----------|--------------|
+| **Linguagens** | R, Python, SQL (básico) |
+| **Ferramentas** | Quarto, RStudio, Git/GitHub, Dashboards |
+| **Estatística** | Análise Descritiva, Visualização (ggplot2, matplotlib), Machine Learning (em aprendizado) |
+
+---
+
+## Idiomas
+
+Sou apaixonada por línguas e pela comunicação global. Estudo idiomas não apenas como ferramenta profissional, mas também por interesse pessoal, curiosidade cultural e pelo prazer de compreender diferentes formas de expressão e pensamento.
+
+* Português (Nativo)
+* Inglês (Fluente)
+* Francês (Intermediário)
+* Italiano (Conhecimentos básicos)

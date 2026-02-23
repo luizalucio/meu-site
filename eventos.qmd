@@ -1,9 +1,0 @@
----
-  title: " Eventos (Events)"
----
-
-### Conteúdo em breve...
-
-Estou preparando algo especial para esta seção :)
-
-![](aguarde.png){width="400px" style="display: block; margin: 2rem auto;"}

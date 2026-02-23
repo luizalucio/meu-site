@@ -2,8 +2,10 @@
   {
     "listing": "/projetos.html",
     "items": [
-      "/projetos/relatorio-queimadas.html",
-      "/projetos/meu-dashboard.html"
+      "/projetos/fundamentos-de-programacao.html",
+      "/projetos/cdnaescola.html",
+      "/projetos/analise-queimadas.html",
+      "/projetos/pyladies.html"
     ]
   }
 ]
