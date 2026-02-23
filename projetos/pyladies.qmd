@@ -1,7 +1,7 @@
 ---
 title: "PyLadies Lavras"
 subtitle: "Comunidade · Tecnologia & Inclusão · Lavras, MG"
-description: "Membra ativa do PyLadies Lavras — grupo local da comunidade internacional PyLadies, dedicado a promover eventos sobre tecnologia e inclusão. Responsável pelas redes sociais do grupo."
+description: "Membra ativa do PyLadies Lavras - grupo local da comunidade internacional PyLadies, dedicado a promover eventos sobre tecnologia e inclusão. Responsável pelas redes sociais do grupo."
 date: "2025-01-01"
 categories: [Comunidade, Participação, Mulheres na Tecnologia, Python, STEM]
 image: pyladiesgrupo.jpg
@@ -21,7 +21,45 @@ Nossos encontros e eventos giram em torno de programação, dados, inclusão e a
 
 Como membra ativa, participo da organização de eventos e sou responsável pelas redes sociais do grupo, cuido da comunicação, criação de conteúdo e divulgação das nossas iniciativas.
 
-### Links
+## Construindo comunidade, abrindo caminhos e multiplicando impacto: 
+
+Ao longo de nossas atividades, o PyLadies Lavras tem promovido encontros que vão além do ensino técnico: criamos espaços de acolhimento, troca e pertencimento, fortalecendo a presença de mulheres e pessoas de gêneros minorizados na tecnologia. A seguir, alguns dos eventos que marcaram essa trajetória.
+
+### Mini-curso de introdução à lógica de programação
+
+O mini-curso de introdução à lógica de programação foi pensado como uma porta de entrada acessível para quem estava tendo o primeiro contato com programação. Trabalhamos conceitos fundamentais de forma didática, prática e colaborativa, respeitando o ritmo de cada participante.
+
+O ambiente acolhedor incentivou perguntas, experimentação e troca de experiências, reforçando a ideia de que aprender a programar é possível para todas as pessoas.
+
+- [Post do evento no Instagram](https://www.instagram.com/p/DKiI5-rtnjI/?igsh=MTVobmw3M3N1eG5qcA==)
+
+### UFLa de Portas Abertas
+
+No evento UFLa de Portas Abertas, o PyLadies Lavras esteve presente apresentando a comunidade, seus objetivos e suas ações. Foi um momento de diálogo com estudantes, visitantes e a comunidade externa, mostrando que a tecnologia também é um espaço de diversidade e colaboração.
+
+A participação fortaleceu a visibilidade do projeto dentro da universidade e aproximou novas pessoas interessadas em programação e ciência de dados.
+
+- [Post do evento no Instagram](https://www.instagram.com/p/DOv3MRWkbnj/?igsh=MXJuODg0MTNhcTJsZw==)
+
+### Ada Lovelace Day
+
+A comemoração do Ada Lovelace Day foi dedicada à valorização de mulheres na tecnologia e à construção de referências inspiradoras. O encontro promoveu reflexões sobre trajetórias, desafios e conquistas na área, destacando a importância da representatividade.
+
+Esse momento reforçou o sentimento de pertencimento e incentivou participantes a se reconhecerem como protagonistas em seus percursos acadêmicos e profissionais.
+
+- [Post do evento no Instagram](https://www.instagram.com/p/DPZ8Bj2Db5S/?img_index=3&igsh=MWR3bDMwbDNyY3k3eg==)
+
+### Happy Hour MGEst
+
+O Happy Hour MGEst foi um encontro descontraído, focado no fortalecimento de vínculos e na troca de experiências em um ambiente informal. Conversas sobre tecnologia, carreira e vivências pessoais ajudaram a criar conexões mais próximas entre participantes.
+
+Esse tipo de encontro é essencial para consolidar a comunidade, mostrando que aprender e crescer juntas também passa pela construção de relações humanas e redes de apoio.
+
+- [Post do evento no Instagram](https://www.instagram.com/p/DRADqR9kU6s/?igsh=YXlmYTczODB3OTFv)
+
+## Conheça nosso instagram
+
+Tenho muito orgulho de criar as postagens do PyLadies, porque, além de me ajudarem a compreender melhor o mundo digital, elas contribuem para atrair novas participantes, disseminar conhecimento, fortalecer a comunidade e ampliar o impacto da iniciativa, criando pontes entre pessoas, tecnologia e oportunidades.
 
 - [Instagram @pyladieslavras](https://www.instagram.com/pyladieslavras/)
 
